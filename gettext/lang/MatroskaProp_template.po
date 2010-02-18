@@ -1,0 +1,2414 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: MatroskaProp\n"
+"POT-Creation-Date: 2003-10-21 00:35-0500\n"
+"PO-Revision-Date: 2004-02-10 17:37-0600\n"
+"Last-Translator: Jory Stone <vbman@toughguy.net>\n"
+"Language-Team: TEAM <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:89
+#: MatroskaPages.cpp:108
+msgid " Build "
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:93
+msgid "Developed by"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:96
+msgid "Reads infomation about a Matroska file and R/W the Tags of a Matroska filevia a Property sheet, also allows Tooltips, Thumbnails, and more for Matroska files in Windows Explorer."
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:99
+msgid "Thanks to Pamel for working so hard on the Matroska tagging system."
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:101
+msgid "YUV2->RGB32 Assembly Routines by alexnoe."
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:116
+msgid "Compiled on"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:119
+msgid "Using ..."
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:193
+#: MatroskaPages.cpp:892
+msgid "About"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:194
+#: MatroskaPages.cpp:411
+#: MatroskaPages.cpp:670
+#: MatroskaPages.cpp:1489
+#: MatroskaPages.cpp:1605
+#: MatroskaPages.cpp:1757
+#: MatroskaPages.cpp:1786
+#: MatroskaPagesTag.cpp:55
+#: MatroskaPagesTag.cpp:593
+msgid "OK"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:373
+msgid "Matroska Shell Extension Options"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:376
+msgid ""
+"Matroska Shell Ext Options Setup\n"
+"Choose which features you want enabled and configure any options."
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:378
+msgid "Cache Size:"
+msgstr ""
+
+#: MatroskaPages.cpp:379
+msgid "Enable Crash Catcher"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:380
+msgid "Which Property Pages to Show"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:381
+msgid "Thumbnail Video Frame Time"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:382
+msgid "Thumbnail Resize Method"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:383
+msgid "Thumbnails"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:384
+msgid "Thumbnail Generation Timeout"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:386
+#: ShellExtension/MatroskaProp.cpp:1258
+msgid "Language:"
+msgstr ""
+
+#: MatroskaPages.cpp:387
+msgid "Translation by <translator name>"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:389
+msgid "Enable Matroska Context Menus"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:390
+msgid "Enable Matroska File Columns"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:391
+msgid "Enable Matroska File Tooltips"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:392
+msgid "Use short Matroska Tooltips"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:394
+msgid "Enable Matroska File Thumbnails"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:396
+msgid "Show thumbnails on click (slows browsing down and only shows in the tasks view)"
+msgstr ""
+
+#: MatroskaPages.cpp:397
+msgid "Enable DShow (Internal Render) thumbnail generation (prefered)"
+msgstr ""
+
+#: MatroskaPages.cpp:398
+msgid "Enable DShow (IMediaDet) thumbnail generation"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:399
+#: ShellExtension/MatroskaProp.cpp:927
+msgid "Matroska Info"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:400
+#: ShellExtension/MatroskaProp.cpp:976
+msgid "Matroska Tags"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:401
+#: ShellExtension/MatroskaProp.cpp:952
+msgid "Matroska Attachments"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:405
+msgid "Bilinear"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:406
+msgid "Nearest Pixel"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:407
+msgid "Bicubic"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:410
+#: MatroskaPages.cpp:894
+msgid "Change"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:412
+#: MatroskaPages.cpp:1490
+#: MatroskaPages.cpp:1606
+#: MatroskaPagesTag.cpp:56
+#: MatroskaPagesTag.cpp:594
+msgid "Cancel"
+msgstr ""
+
+#: MatroskaPages.cpp:414
+msgid "Auto-Reload Tags"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:417
+msgid "If the MKV doesn't have an attached cover. The video frame at this time will be displayed via DShow"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:418
+msgid "The Column, Context Menu, Tooltip, and Thumbnail handers all share a cache of the last few files read. Each one is 4KB-10KB in memory."
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:419
+msgid "The number of minutes to wait before canceling thumbnail generation."
+msgstr ""
+
+#: MatroskaPages.cpp:420
+msgid "Auto-Reload Tags after Writing."
+msgstr ""
+
+#: MatroskaPages.cpp:483
+msgid "Translation dll, 'gnu_gettext.dll' was not loaded."
+msgstr ""
+
+#: MatroskaPages.cpp:483
+msgid "Error"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:627
+msgid "Leave Icon"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:632
+msgid "Use Pamel's Logo with Jory colors"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:637
+msgid "Use Pamel's Logo with Blue colors"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:642
+msgid "Use Jory's silly Monkey"
+msgstr ""
+
+#: MatroskaPages.cpp:647
+msgid "MKV Document"
+msgstr ""
+
+#: MatroskaPages.cpp:652
+msgid "Doll 1"
+msgstr ""
+
+#: MatroskaPages.cpp:657
+msgid "Doll 2"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:669
+msgid "Select your Matroska Icon"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:734
+msgid "Matroska Parser"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:735
+msgid "Parsing Matroska File"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:736
+#: MatroskaPages.cpp:1739
+#: MatroskaPages.cpp:1767
+#: MatroskaPages.cpp:1789
+msgid "Abort"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:813
+#: MatroskaPagesTag.cpp:1778
+#: MatroskaPagesTag.cpp:1856
+#: MatroskaPagesTag.cpp:1992
+#: MatroskaPagesTag.cpp:2054
+#: MatroskaPagesTag.cpp:2077
+#: MatroskaPagesTag.cpp:2684
+#: MatroskaPagesTag.cpp:2928
+msgid "Name"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:816
+#: MatroskaPagesTag.cpp:2079
+#: MatroskaPagesTag.cpp:2698
+#: MatroskaPagesTag.cpp:2948
+msgid "Value"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:887
+msgid "Matroska File Infomation"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:888
+msgid "Track Infomation"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:889
+msgid "Tracks"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:890
+msgid "Basic Infomation"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:891
+msgid "Advanced Infomation"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:893
+msgid "Options"
+msgstr ""
+
+#: MatroskaPages.cpp:895
+msgid "Bitrate"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1064
+#: MatroskaPages.cpp:1995
+msgid "Track Language"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1068
+msgid "Display Size/AR"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1075
+msgid "You have to select something to change."
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1075
+#: MatroskaPages.cpp:1079
+msgid "Doh!"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1079
+msgid "You have to select a track to change."
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1178
+msgid "Matroska Attachment Infomation"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1179
+#: MatroskaPages.cpp:2426
+msgid "Attachment Infomation"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1180
+#: MatroskaPages.cpp:1181
+msgid "Attachment Preview"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1182
+msgid "View Attachment"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1183
+msgid "Save As"
+msgstr ""
+
+#: MatroskaPages.cpp:1277
+#: ShellExtension/MatroskaProp.cpp:2901
+msgid "Filename"
+msgstr ""
+
+#: MatroskaPages.cpp:1281
+#: ShellExtension/MatroskaProp.cpp:2903
+msgid "Mime Type"
+msgstr ""
+
+#: MatroskaPages.cpp:1286
+#: MatroskaPages.cpp:1298
+msgid "None"
+msgstr ""
+
+#: MatroskaPages.cpp:1289
+msgid "Size"
+msgstr ""
+
+#: MatroskaPages.cpp:1293
+#: ShellExtension/MatroskaProp.cpp:2905
+msgid "Description"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1314
+msgid "Please wait decoding..."
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1387
+msgid "Save Attachment As..."
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1393
+#, c-format
+msgid "Saved to: %s"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1393
+msgid "Saved"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1395
+#, c-format
+msgid "Failed to save: %s"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1395
+msgid "Failed "
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1434
+#, c-format
+msgid ""
+"This file %s \n"
+"Is not handled by this Extension. Run external program? (equal to double-clicking file)"
+msgstr ""
+
+#: MatroskaPages.cpp:1437
+msgid "Warning"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1485
+#: MatroskaPagesTag.cpp:53
+msgid "Add a new Tag"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1486
+msgid "Change the Display Size or AR"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1487
+msgid "Width"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1488
+msgid "Height"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1502
+msgid "Video track not selected!"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1502
+#: MatroskaPages.cpp:1615
+msgid "Umm..."
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1510
+#: MatroskaPages.cpp:1558
+#: MatroskaPages.cpp:1633
+#: MatroskaPages.cpp:1687
+msgid "Unable to find selected track."
+msgstr ""
+
+#: MatroskaPages.cpp:1510
+#: MatroskaPages.cpp:1558
+#: MatroskaPages.cpp:1633
+#: MatroskaPages.cpp:1636
+#: MatroskaPages.cpp:1639
+#: MatroskaPages.cpp:1687
+#: MatroskaPages.cpp:1690
+#: MatroskaPages.cpp:1693
+msgid "Fatal Error"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1546
+msgid "Display size updated"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1546
+#: MatroskaPages.cpp:1676
+#: MatroskaPagesTag.cpp:827
+msgid "Success"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1555
+msgid "Unable to update display size"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1603
+msgid "Select ISO-639 Language"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1604
+msgid "Select the Language from the list"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1615
+msgid "Track doesn't have an existing track language set!"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1676
+msgid "Track language updated"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1684
+msgid "Unable to update track language"
+msgstr ""
+
+#: MatroskaPages.cpp:1737
+msgid "Bitrate Display"
+msgstr ""
+
+#: MatroskaPages.cpp:1738
+msgid "Bitrate Usage:"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1825
+#: MatroskaPagesTag.cpp:744
+#: MatroskaPagesTag.cpp:3508
+#: MatroskaPagesTag.cpp:3553
+#: ShellExtension/MatroskaProp.cpp:1246
+#: ShellExtension/MatroskaProp.cpp:2872
+msgid "Track"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1927
+msgid "Track Number"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1940
+msgid "Track Type"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1954
+#: ShellExtension/MatroskaProp.cpp:2880
+msgid "Codec ID"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1970
+msgid "Extra Codec Info"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:1985
+#: MatroskaPagesTag.cpp:1063
+#: MatroskaPagesTag.cpp:1467
+#: MatroskaPagesTag.cpp:1697
+#: MatroskaPagesTag.cpp:1929
+#: MatroskaPagesTag.cpp:2066
+#: MatroskaPagesTag.cpp:2277
+#: MatroskaPagesTag.cpp:2282
+#: MatroskaPagesTag.cpp:2677
+#: MatroskaPagesTag.cpp:2917
+#: ShellExtension/MatroskaProp.cpp:2883
+msgid "Language"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:2011
+msgid "Sampling Rate"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:2026
+msgid "Bit-Depth"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:2040
+msgid "Channel Count"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:2047
+msgid "channel(s)"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:2064
+msgid "Pixel Size"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:2077
+msgid "Display Size"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:2085
+#: MatroskaPagesTag.cpp:2096
+#: MatroskaPagesTag.cpp:2107
+#: MatroskaPagesTag.cpp:2118
+#: MatroskaPagesTag.cpp:2129
+#: MatroskaPagesTag.cpp:2140
+#: MatroskaPagesTag.cpp:2151
+#: MatroskaPagesTag.cpp:2162
+#: MatroskaPagesTag.cpp:2173
+#: MatroskaPagesTag.cpp:2184
+#: MatroskaPagesTag.cpp:2195
+#: MatroskaPagesTag.cpp:2206
+#: MatroskaPagesTag.cpp:2217
+#: MatroskaPagesTag.cpp:2228
+#: MatroskaPagesTag.cpp:2239
+#: MatroskaPagesTag.cpp:2250
+#: MatroskaPagesTag.cpp:2261
+#: MatroskaPagesTag.cpp:2272
+#: MatroskaPagesTag.cpp:2283
+#: MatroskaPagesTag.cpp:2294
+#: MatroskaPagesTag.cpp:2305
+#: MatroskaPagesTag.cpp:2316
+#: MatroskaPagesTag.cpp:2327
+#: MatroskaPagesTag.cpp:2338
+#: MatroskaPagesTag.cpp:2349
+#: MatroskaPagesTag.cpp:2360
+#: MatroskaPagesTag.cpp:2371
+#: MatroskaPagesTag.cpp:2382
+#: MatroskaPagesTag.cpp:2481
+#: MatroskaPagesTag.cpp:2492
+#: MatroskaPagesTag.cpp:2502
+#: MatroskaUtils.cpp:2104
+#: MatroskaUtils.cpp:2137
+msgid "N/A"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:2095
+msgid "Framerate"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:2140
+#: MatroskaPagesTag.cpp:745
+#: MatroskaPagesTag.cpp:1303
+#: MatroskaPagesTag.cpp:3197
+msgid "Track UID"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:2159
+msgid "Interlaced"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:2172
+msgid "Colordepth"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:2187
+msgid "Lacing Flag"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:2200
+msgid "Default Flag"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:2213
+msgid "Timecode Scale"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:2226
+msgid "Max Cache"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:2239
+msgid "Min Cache"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:2252
+msgid "Duration"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:2261
+#: MatroskaPages.cpp:2265
+msgid "seconds"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:2274
+msgid "Date"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:2288
+#: MatroskaPagesTag.cpp:1190
+#: MatroskaPagesTag.cpp:2486
+#: MatroskaPagesTag.cpp:2491
+msgid "Muxing App"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:2301
+#: MatroskaPagesTag.cpp:1197
+#: MatroskaPagesTag.cpp:2496
+#: MatroskaPagesTag.cpp:2501
+msgid "Writing App"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:2315
+msgid "Total MetaSeek Elements Size"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:2322
+#: MatroskaPages.cpp:2337
+msgid "bytes"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:2330
+msgid "Total Cue Elements Size"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:2345
+msgid "Cluster Count"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPages.cpp:2352
+msgid "clusters"
+msgstr ""
+
+#: MatroskaPages.cpp:2439
+msgid "No Attachments Found"
+msgstr ""
+
+#: MatroskaPages.cpp:2553
+msgid "Dummy string"
+msgstr "This is where you would enter the translated string"
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:54
+msgid "Choose the type of tag to add"
+msgstr ""
+
+#: MatroskaPagesTag.cpp:590
+msgid "Add Simple Tag"
+msgstr ""
+
+#: MatroskaPagesTag.cpp:591
+msgid "Name:"
+msgstr ""
+
+#: MatroskaPagesTag.cpp:592
+msgid "Value:"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:743
+msgid "The Matroska Tagger"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:746
+msgid "Tag Type:"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:747
+msgid "Tag Field:"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:748
+msgid "Field Text:"
+msgstr ""
+
+#: MatroskaPagesTag.cpp:749
+msgid "Tag belonging to this Track"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:750
+msgid "Add"
+msgstr ""
+
+#: MatroskaPagesTag.cpp:751
+msgid "Delete"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:752
+msgid "Export Tags as XML"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:753
+msgid "Import"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:754
+msgid "Reload"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:755
+msgid "Save"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:827
+msgid "Tags Written."
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:834
+msgid "Failed to write tags"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:869
+#: MatroskaPagesTag.cpp:1695
+#: MatroskaPagesTag.cpp:1918
+#: MatroskaPagesTag.cpp:1923
+#: MatroskaPagesTag.cpp:2545
+msgid "MultiComment"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:876
+#: MatroskaPagesTag.cpp:1718
+#: MatroskaPagesTag.cpp:1932
+#: MatroskaPagesTag.cpp:1937
+#: MatroskaPagesTag.cpp:2549
+msgid "MultiCommercial"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:883
+#: MatroskaPagesTag.cpp:1745
+#: MatroskaPagesTag.cpp:1959
+#: MatroskaPagesTag.cpp:1964
+#: MatroskaPagesTag.cpp:2556
+msgid "MultiDate"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:890
+#: MatroskaPagesTag.cpp:1772
+#: MatroskaPagesTag.cpp:1978
+#: MatroskaPagesTag.cpp:1983
+#: MatroskaPagesTag.cpp:2563
+msgid "MultiEntity"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:897
+#: MatroskaPagesTag.cpp:1799
+#: MatroskaPagesTag.cpp:2003
+#: MatroskaPagesTag.cpp:2008
+#: MatroskaPagesTag.cpp:2570
+msgid "MultiIdentifier"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:904
+#: MatroskaPagesTag.cpp:1822
+#: MatroskaPagesTag.cpp:2022
+#: MatroskaPagesTag.cpp:2027
+#: MatroskaPagesTag.cpp:2577
+msgid "MultiLegal"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:911
+#: MatroskaPagesTag.cpp:1850
+#: MatroskaPagesTag.cpp:2041
+#: MatroskaPagesTag.cpp:2046
+#: MatroskaPagesTag.cpp:2584
+msgid "MultiTitle"
+msgstr ""
+
+#: MatroskaPagesTag.cpp:919
+#: MatroskaPagesTag.cpp:1676
+#: MatroskaPagesTag.cpp:2069
+#: MatroskaPagesTag.cpp:2074
+msgid "Simple Tag"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:927
+#: MatroskaPagesTag.cpp:2090
+#: MatroskaPagesTag.cpp:2095
+msgid "Abstract"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:935
+#: MatroskaPagesTag.cpp:1322
+#: MatroskaPagesTag.cpp:2101
+#: MatroskaPagesTag.cpp:2106
+msgid "Archival Location"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:943
+#: MatroskaPagesTag.cpp:1331
+#: MatroskaPagesTag.cpp:2112
+#: MatroskaPagesTag.cpp:2117
+msgid "Audio Gain"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:951
+#: MatroskaPagesTag.cpp:1340
+#: MatroskaPagesTag.cpp:2123
+#: MatroskaPagesTag.cpp:2128
+msgid "Audio Genre"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:959
+#: MatroskaPagesTag.cpp:1349
+#: MatroskaPagesTag.cpp:2134
+#: MatroskaPagesTag.cpp:2139
+msgid "Audio Peak"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:967
+#: MatroskaPagesTag.cpp:1358
+#: MatroskaPagesTag.cpp:2145
+#: MatroskaPagesTag.cpp:2150
+msgid "Audio Secondary Genre"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:975
+#: MatroskaPagesTag.cpp:1367
+#: MatroskaPagesTag.cpp:2156
+#: MatroskaPagesTag.cpp:2161
+msgid "Bibliography"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:983
+#: MatroskaPagesTag.cpp:1376
+#: MatroskaPagesTag.cpp:2167
+#: MatroskaPagesTag.cpp:2172
+msgid "BPM"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:991
+#: MatroskaPagesTag.cpp:1385
+#: MatroskaPagesTag.cpp:2178
+#: MatroskaPagesTag.cpp:2183
+msgid "Capture DPI"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:999
+#: MatroskaPagesTag.cpp:1394
+#: MatroskaPagesTag.cpp:2189
+#: MatroskaPagesTag.cpp:2194
+msgid "Capture Palette Setting"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1007
+#: MatroskaPagesTag.cpp:1403
+#: MatroskaPagesTag.cpp:2200
+#: MatroskaPagesTag.cpp:2205
+msgid "Cropped"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1015
+#: MatroskaPagesTag.cpp:1412
+#: MatroskaPagesTag.cpp:2211
+#: MatroskaPagesTag.cpp:2216
+msgid "Disc Track"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1023
+#: MatroskaPagesTag.cpp:1421
+#: MatroskaPagesTag.cpp:2222
+#: MatroskaPagesTag.cpp:2227
+msgid "Encoder"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1031
+#: MatroskaPagesTag.cpp:1431
+#: MatroskaPagesTag.cpp:2233
+#: MatroskaPagesTag.cpp:2238
+msgid "Encode Settings"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1039
+#: MatroskaPagesTag.cpp:1440
+#: MatroskaPagesTag.cpp:2244
+#: MatroskaPagesTag.cpp:2249
+msgid "File"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1047
+#: MatroskaPagesTag.cpp:1449
+#: MatroskaPagesTag.cpp:2255
+#: MatroskaPagesTag.cpp:2260
+msgid "Initial Key"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1055
+#: MatroskaPagesTag.cpp:1458
+#: MatroskaPagesTag.cpp:2266
+#: MatroskaPagesTag.cpp:2271
+msgid "Keywords"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1071
+#: MatroskaPagesTag.cpp:1476
+#: MatroskaPagesTag.cpp:2288
+#: MatroskaPagesTag.cpp:2293
+msgid "Length"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1079
+#: MatroskaPagesTag.cpp:1494
+#: MatroskaPagesTag.cpp:2299
+#: MatroskaPagesTag.cpp:2304
+msgid "Official Audio File URL"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1087
+#: MatroskaPagesTag.cpp:1503
+#: MatroskaPagesTag.cpp:2310
+#: MatroskaPagesTag.cpp:2315
+msgid "Official Audio Source URL"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1095
+#: MatroskaPagesTag.cpp:1512
+#: MatroskaPagesTag.cpp:2321
+#: MatroskaPagesTag.cpp:2326
+msgid "Original Dimensions"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1103
+#: MatroskaPagesTag.cpp:1521
+#: MatroskaPagesTag.cpp:2332
+#: MatroskaPagesTag.cpp:2337
+msgid "Original Media Type"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1111
+#: MatroskaPagesTag.cpp:1530
+#: MatroskaPagesTag.cpp:2343
+#: MatroskaPagesTag.cpp:2348
+msgid "Play Counter"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1119
+#: MatroskaPagesTag.cpp:1539
+#: MatroskaPagesTag.cpp:2354
+#: MatroskaPagesTag.cpp:2359
+msgid "Playlist Delay"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1127
+#: MatroskaPagesTag.cpp:1548
+#: MatroskaPagesTag.cpp:2365
+#: MatroskaPagesTag.cpp:2370
+msgid "Popularimeter"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1135
+#: MatroskaPagesTag.cpp:1573
+#: MatroskaPagesTag.cpp:2376
+#: MatroskaPagesTag.cpp:2381
+msgid "Record Location"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1143
+#: MatroskaPagesTag.cpp:1582
+#: MatroskaPagesTag.cpp:2387
+#: MatroskaPagesTag.cpp:2392
+msgid "Set Part"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1151
+#: MatroskaPagesTag.cpp:1591
+#: MatroskaPagesTag.cpp:2398
+#: MatroskaPagesTag.cpp:2403
+msgid "Source"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1159
+#: MatroskaPagesTag.cpp:1600
+#: MatroskaPagesTag.cpp:2409
+#: MatroskaPagesTag.cpp:2414
+msgid "Source Form"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1167
+#: MatroskaPagesTag.cpp:1609
+#: MatroskaPagesTag.cpp:2420
+#: MatroskaPagesTag.cpp:2425
+msgid "Sub Genre"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1175
+#: MatroskaPagesTag.cpp:1618
+#: MatroskaPagesTag.cpp:2431
+#: MatroskaPagesTag.cpp:2436
+msgid "Subject"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1182
+#: MatroskaPagesTag.cpp:2475
+#: MatroskaPagesTag.cpp:2480
+msgid "User Defined URL"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1228
+msgid "Export Tags As XML To..."
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1234
+msgid "Failed to save XML tag file."
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1234
+msgid "Unable to save"
+msgstr ""
+
+#: MatroskaPagesTag.cpp:1258
+msgid "Open file to import tags..."
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1485
+msgid "Mood"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1557
+msgid "Product"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1701
+msgid "Comment"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1720
+#: MatroskaPagesTag.cpp:1747
+#: MatroskaPagesTag.cpp:1774
+#: MatroskaPagesTag.cpp:1801
+#: MatroskaPagesTag.cpp:1824
+#: MatroskaPagesTag.cpp:1852
+msgid "Type"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1724
+msgid "Currency"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1728
+msgid "Price"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1751
+#: MatroskaPagesTag.cpp:1973
+#: MatroskaPagesTag.cpp:2754
+msgid "Date Begin"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1755
+#: MatroskaPagesTag.cpp:1975
+#: MatroskaPagesTag.cpp:2780
+msgid "Date End"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1782
+#: MatroskaPagesTag.cpp:1832
+#: MatroskaPagesTag.cpp:1867
+#: MatroskaPagesTag.cpp:1952
+#: MatroskaPagesTag.cpp:1994
+#: MatroskaPagesTag.cpp:2038
+#: MatroskaPagesTag.cpp:2060
+#: MatroskaPagesTag.cpp:2740
+#: MatroskaPagesTag.cpp:3008
+msgid "URL"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1805
+msgid "String Data"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1861
+#: MatroskaTrackData.cpp:133
+msgid "Subtitle"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1925
+#: MatroskaPagesTag.cpp:1927
+#: MatroskaPagesTag.cpp:2663
+#: MatroskaPagesTag.cpp:2897
+msgid "Comments"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1946
+msgid "Price Currency"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1948
+msgid "Price Date"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1950
+msgid "Price Amount"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1954
+#: MatroskaPagesTag.cpp:1996
+#: MatroskaPagesTag.cpp:2062
+#: MatroskaPagesTag.cpp:2747
+#: MatroskaPagesTag.cpp:3020
+msgid "Email"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:1956
+#: MatroskaPagesTag.cpp:1998
+#: MatroskaPagesTag.cpp:2036
+#: MatroskaPagesTag.cpp:2064
+msgid "Address"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:2017
+#: MatroskaPagesTag.cpp:2097
+#: MatroskaPagesTag.cpp:2108
+#: MatroskaPagesTag.cpp:2163
+#: MatroskaPagesTag.cpp:2207
+#: MatroskaPagesTag.cpp:2229
+#: MatroskaPagesTag.cpp:2240
+#: MatroskaPagesTag.cpp:2251
+#: MatroskaPagesTag.cpp:2273
+#: MatroskaPagesTag.cpp:2339
+#: MatroskaPagesTag.cpp:2405
+#: MatroskaPagesTag.cpp:2416
+#: MatroskaPagesTag.cpp:2438
+#: MatroskaPagesTag.cpp:2493
+#: MatroskaPagesTag.cpp:2503
+#: MatroskaPagesTag.cpp:2618
+#: MatroskaPagesTag.cpp:2831
+msgid "Unicode String"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:2019
+msgid "Binary"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:2056
+#: MatroskaPagesTag.cpp:2712
+#: MatroskaPagesTag.cpp:2968
+msgid "SubTitle"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:2058
+#: MatroskaPagesTag.cpp:2726
+#: MatroskaPagesTag.cpp:2988
+msgid "Edition"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:2119
+#: MatroskaPagesTag.cpp:2141
+#: MatroskaPagesTag.cpp:2174
+#: MatroskaPagesTag.cpp:2639
+#: MatroskaPagesTag.cpp:2864
+msgid "Floating Point Number"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:2130
+#: MatroskaPagesTag.cpp:2152
+#: MatroskaPagesTag.cpp:2262
+#: MatroskaPagesTag.cpp:2284
+#: MatroskaPagesTag.cpp:2306
+#: MatroskaPagesTag.cpp:2317
+#: MatroskaPagesTag.cpp:2328
+#: MatroskaPagesTag.cpp:2383
+#: MatroskaPagesTag.cpp:2427
+#: MatroskaPagesTag.cpp:2482
+#: MatroskaPagesTag.cpp:2632
+#: MatroskaPagesTag.cpp:2852
+msgid "ASCII String"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:2185
+#: MatroskaPagesTag.cpp:2196
+#: MatroskaPagesTag.cpp:2218
+#: MatroskaPagesTag.cpp:2295
+#: MatroskaPagesTag.cpp:2350
+#: MatroskaPagesTag.cpp:2361
+#: MatroskaPagesTag.cpp:2394
+#: MatroskaPagesTag.cpp:2647
+#: MatroskaPagesTag.cpp:2875
+msgid "Positive Integer"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:2372
+#: MatroskaPagesTag.cpp:2655
+#: MatroskaPagesTag.cpp:2886
+msgid "Integer"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:3460
+msgid "Unable to write tags. Please check that the file isn't open in another program. If you are watching the file please stop it and try again"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:3460
+msgid "Unable to write tags"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:3485
+msgid "No tag element found"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:3487
+msgid "Tag element found"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaPagesTag.cpp:3495
+msgid "Global Tags"
+msgstr ""
+
+#: MatroskaTrackData.cpp:127
+msgid "Audio"
+msgstr ""
+
+#: MatroskaTrackData.cpp:130
+msgid "Video"
+msgstr ""
+
+#: MatroskaTrackData.cpp:136
+msgid "Internal Tag Track (You shouldn't be seeing this :P)"
+msgstr ""
+
+#: MatroskaTrackData.cpp:139
+msgid "Unknown"
+msgstr ""
+
+#: MatroskaTrackData.cpp:1766
+msgid "Failed to open attached file"
+msgstr ""
+
+#: MatroskaTrackData.cpp:1766
+msgid "Unable to open file"
+msgstr ""
+
+#: MatroskaUtils.cpp:1586
+#: MatroskaUtils.cpp:1785
+#: MatroskaUtilsTag.cpp:1194
+msgid "Unable open file. Please check that the file isn't open in another program."
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: MatroskaUtils.cpp:1593
+#: MatroskaUtils.cpp:1597
+#: MatroskaUtils.cpp:1792
+#: MatroskaUtils.cpp:1797
+#: MatroskaUtilsTag.cpp:1201
+#: MatroskaUtilsTag.cpp:1205
+msgid "No EBML header was found."
+msgstr ""
+
+#: MatroskaUtils.cpp:1607
+#: MatroskaUtils.cpp:1806
+#: MatroskaUtilsTag.cpp:1215
+msgid "No Segment/Level 0 Element was found."
+msgstr ""
+
+#: MatroskaUtils.cpp:1610
+#: MatroskaUtils.cpp:1809
+#: MatroskaUtilsTag.cpp:1218
+msgid "First Level 0 Element was not a Segment."
+msgstr ""
+
+#: MatroskaUtils.cpp:1759
+msgid "No Track Display Size found to update"
+msgstr ""
+
+#: MatroskaUtils.cpp:1763
+msgid "Failed to update Track Display Size."
+msgstr ""
+
+#: MatroskaUtils.cpp:1765
+#: MatroskaUtils.cpp:1939
+#: MatroskaUtilsTag.cpp:1871
+msgid "Exception: "
+msgstr ""
+
+#: MatroskaUtils.cpp:1871
+msgid "New Track Language is longer than the previous."
+msgstr ""
+
+#: MatroskaUtils.cpp:1933
+msgid "No Track Language found to update"
+msgstr ""
+
+#: MatroskaUtils.cpp:1937
+msgid "Failed to update Track Language."
+msgstr ""
+
+#: MatroskaUtilsTag.cpp:1831
+#: MatroskaUtilsTag.cpp:1838
+msgid "Failed to seek in file."
+msgstr ""
+
+#: MatroskaUtilsTag.cpp:1859
+msgid "Tags were written. However the segment size couldn't be updated. Therefore the tags may not be visible to some programs, as this is a bending of the specs."
+msgstr ""
+
+#: MatroskaUtilsTag.cpp:1869
+msgid "Failed to write tags."
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: ShellExtension/MatroskaProp.cpp:1293
+msgid "Video Tracks:"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: ShellExtension/MatroskaProp.cpp:1299
+msgid "Audio Tracks:"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: ShellExtension/MatroskaProp.cpp:1305
+msgid "Subtitle Tracks:"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: ShellExtension/MatroskaProp.cpp:1312
+msgid "Filesize:"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: ShellExtension/MatroskaProp.cpp:1318
+msgid "Avg Bitrate:"
+msgstr ""
+
+# C:\Documents
+# and
+# Settings\Jory\My
+# Documents\Visual
+# Studio
+#: ShellExtension/MatroskaProp.cpp:1323
+msgid "Length:"
+msgstr ""
+
+#: ShellExtension/MatroskaProp.cpp:2858
+msgid "Configure MatroskaProp"
+msgstr ""
+
+#: ShellExtension/MatroskaProp.cpp:2877
+#: ShellExtension/MatroskaProp.cpp:2899
+msgid "UID"
+msgstr ""
+
+#: ShellExtension/MatroskaProp.cpp:2896
+msgid "Attachment"
+msgstr ""
+
+#: ShellExtension/MatroskaProp.cpp:2917
+msgid "Attached Image"
+msgstr ""
+
+#: ShellExtension/MatroskaProp.cpp:2928
+msgid "Open with Default App"
+msgstr ""
+

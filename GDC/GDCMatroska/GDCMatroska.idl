@@ -1,0 +1,39 @@
+// GDCMatroska.idl : IDL source for GDCMatroska
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (GDCMatroska.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(3219E2BC-E7AB-456d-AA17-600E3BDC418D),
+	dual,
+	nonextensible,
+	helpstring("IIndexMatroska Interface"),
+	pointer_default(unique)
+]
+interface IIndexMatroska : IDispatch{
+  [id(1), helpstring("method HandleFile")] 
+  HRESULT HandleFile(BSTR full_path_to_file, IDispatch *event_factory);
+};
+
+[
+	uuid(5D10BF95-A849-47dd-9978-65A5F8F940E1),
+	version(1.0),
+	helpstring("GDCMatroska 1.0 Type Library")
+]
+library GDCMatroskaLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(364F941C-6DB0-437d-BBB9-22FCBA88DE30),
+		helpstring("IndexMatroska Class")
+	]
+	coclass IndexMatroska
+	{
+		[default] interface IIndexMatroska;
+	};
+};

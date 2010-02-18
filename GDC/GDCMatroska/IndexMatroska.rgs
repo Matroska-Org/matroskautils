@@ -1,0 +1,27 @@
+HKCR
+{
+  GDCMatroska.IndexShortcut.1 = s 'IndexMatroska Class'
+  {
+    CLSID = s '{364F941C-6DB0-437d-BBB9-22FCBA88DE30}'
+  }
+  GDCMatroska.IndexShortcut = s 'IndexMatroska Class'
+  {
+    CLSID = s '{364F941C-6DB0-437d-BBB9-22FCBA88DE30}'
+    CurVer = s 'GoogleDesktopComponentSample1.IndexMatroska.1'
+  }
+  NoRemove CLSID
+  {
+    ForceRemove {364F941C-6DB0-437d-BBB9-22FCBA88DE30} = s 'IndexMatroska Class'
+    {
+      ProgID = s 'GDCMatroska.IndexMatroska.1'
+      VersionIndependentProgID = s 'GDCMatroska.IndexMatroska'
+      ForceRemove 'Programmable'
+      InprocServer32 = s '%MODULE%'
+      {
+        val ThreadingModel = s 'Both'
+      }
+      val AppID = s '%APPID%'
+      'TypeLib' = s '{5D10BF95-A849-47dd-9978-65A5F8F940E1}'
+    }
+  }
+}

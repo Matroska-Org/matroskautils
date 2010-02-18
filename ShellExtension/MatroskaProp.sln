@@ -1,0 +1,75 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MatroskaProp", "MatroskaProp.vcproj", "{F0438224-54EC-4618-B906-7DD31CFC9235}"
+	ProjectSection(ProjectDependencies) = postProject
+		{168C0F0D-9975-4D24-885C-87A9B018617E} = {168C0F0D-9975-4D24-885C-87A9B018617E}
+		{FD69BB21-A9BF-4486-9B8A-F0E88C82F704} = {FD69BB21-A9BF-4486-9B8A-F0E88C82F704}
+		{F0438224-54EC-4618-B906-7DD31CFC9235} = {F0438224-54EC-4618-B906-7DD31CFC9235}
+		{E31A72D4-7501-4BCF-85D1-4859B85C13FE} = {E31A72D4-7501-4BCF-85D1-4859B85C13FE}
+		{E3C2A4E1-3DC5-4B67-A3F1-D8AB645DC750} = {E3C2A4E1-3DC5-4B67-A3F1-D8AB645DC750}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libmatroska", "..\..\libmatroska\make\vc7\lib\static\libmatroska.v71.vcproj", "{FD69BB21-A9BF-4486-9B8A-F0E88C82F704}"
+	ProjectSection(ProjectDependencies) = postProject
+		{168C0F0D-9975-4D24-885C-87A9B018617E} = {168C0F0D-9975-4D24-885C-87A9B018617E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libebml", "..\..\libebml\make\vc7\lib\libebml.v71.vcproj", "{168C0F0D-9975-4D24-885C-87A9B018617E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DShowTools", "DShowTools\DShowTools.vcproj", "{F0438224-54EC-4618-B906-7DD31CFC9235}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TinyXml", "..\tinyxml\TinyXml.vcproj", "{E31A72D4-7501-4BCF-85D1-4859B85C13FE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CheckUsage", "CheckUsage\CheckUsage.vcproj", "{001097C4-F5EA-405F-ABE9-D05F8437D632}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MatroskaUtils", "..\MatroskaUtils.vcproj", "{E3C2A4E1-3DC5-4B67-A3F1-D8AB645DC750}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F0438224-54EC-4618-B906-7DD31CFC9235}.Debug.ActiveCfg = Debug|Win32
+		{F0438224-54EC-4618-B906-7DD31CFC9235}.Debug.Build.0 = Debug|Win32
+		{F0438224-54EC-4618-B906-7DD31CFC9235}.Release.ActiveCfg = Release|Win32
+		{F0438224-54EC-4618-B906-7DD31CFC9235}.Release.Build.0 = Release|Win32
+		{FD69BB21-A9BF-4486-9B8A-F0E88C82F704}.Debug.ActiveCfg = Debug|Win32
+		{FD69BB21-A9BF-4486-9B8A-F0E88C82F704}.Debug.Build.0 = Debug|Win32
+		{FD69BB21-A9BF-4486-9B8A-F0E88C82F704}.Release.ActiveCfg = Release|Win32
+		{FD69BB21-A9BF-4486-9B8A-F0E88C82F704}.Release.Build.0 = Release|Win32
+		{168C0F0D-9975-4D24-885C-87A9B018617E}.Debug.ActiveCfg = Debug|Win32
+		{168C0F0D-9975-4D24-885C-87A9B018617E}.Debug.Build.0 = Debug|Win32
+		{168C0F0D-9975-4D24-885C-87A9B018617E}.Release.ActiveCfg = Release|Win32
+		{168C0F0D-9975-4D24-885C-87A9B018617E}.Release.Build.0 = Release|Win32
+		{F0438224-54EC-4618-B906-7DD31CFC9235}.Debug.ActiveCfg = DebugLib|Win32
+		{F0438224-54EC-4618-B906-7DD31CFC9235}.Debug.Build.0 = DebugLib|Win32
+		{F0438224-54EC-4618-B906-7DD31CFC9235}.Release.ActiveCfg = ReleaseLib|Win32
+		{F0438224-54EC-4618-B906-7DD31CFC9235}.Release.Build.0 = ReleaseLib|Win32
+		{E31A72D4-7501-4BCF-85D1-4859B85C13FE}.Debug.ActiveCfg = DebugLib|Win32
+		{E31A72D4-7501-4BCF-85D1-4859B85C13FE}.Debug.Build.0 = DebugLib|Win32
+		{E31A72D4-7501-4BCF-85D1-4859B85C13FE}.Release.ActiveCfg = ReleaseLib|Win32
+		{E31A72D4-7501-4BCF-85D1-4859B85C13FE}.Release.Build.0 = ReleaseLib|Win32
+		{001097C4-F5EA-405F-ABE9-D05F8437D632}.Debug.ActiveCfg = Debug|Win32
+		{001097C4-F5EA-405F-ABE9-D05F8437D632}.Debug.Build.0 = Debug|Win32
+		{001097C4-F5EA-405F-ABE9-D05F8437D632}.Release.ActiveCfg = Release|Win32
+		{001097C4-F5EA-405F-ABE9-D05F8437D632}.Release.Build.0 = Release|Win32
+		{E3C2A4E1-3DC5-4B67-A3F1-D8AB645DC750}.Debug.ActiveCfg = Debug|Win32
+		{E3C2A4E1-3DC5-4B67-A3F1-D8AB645DC750}.Debug.Build.0 = Debug|Win32
+		{E3C2A4E1-3DC5-4B67-A3F1-D8AB645DC750}.Release.ActiveCfg = Release|Win32
+		{E3C2A4E1-3DC5-4B67-A3F1-D8AB645DC750}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,33 @@
+LIBRARY			MatroskaProp
+;DESCRIPTION	'Shell Extension for Matroska files'
+VERSION			2.6
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE ;DLL unloading
+	DllGetClassObject	PRIVATE ;Component object model
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	GetMatroskaPropVersion
+	ConfigureOptions
+	ChooseIcon
+	VistUnicowsWebsite
+	DllGetVersion
+	;CrashMe
+	UnloadGettext
+	SubmitSurvey
+;Exports for Visual Basic & Delphi DLL functions
+	CreateParserObject	
+	FillParserObject
+	DeleteParserObject
+	GetTrackCount
+	GetTrackUID
+	GetTrackType
+	GetTrackTypeLen
+	GetTrackTypeStr
+	GetTrackCodecIDLen
+	GetTrackCodecIDStr
+	GetTrackLength
+	GetTrackVideoInfo
+	GetTrackAudioInfo
+	SetAR
+	UpdateTrackLanguage	

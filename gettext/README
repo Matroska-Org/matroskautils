@@ -1,0 +1,25 @@
+MINGW32 Windows PORT of gettext by Franco Bez <franco.bez@gmx.de>
+
+alternate DLL interface to GNU getetxt
+
+if you want to use GNU gettext as a DLL in your application, but you do not
+want that gnu_gettext.dll is required for your application to run, 
+you might want to use this interface.
+
+It is tried to dynamically load the gnu_gettext.dll , if the dll is not found
+no translation will take place, but your application will run normally.
+
+usage
+
+just include safe_gettext_dll.cpp in your project, and define USE_SAFE_GETTEXT_DLL before
+including libintl.h - that's about all.
+You can use this interface with C or C++.
+
+If you're using plain C for your project you'll have to
+  - compile safe_gettext_dll.cpp with C++
+  - link your apllication to the resulting object file AND the standard C++ library
+  i.e. mingw32
+    to compile the interface:
+      g++ -O -c -o safe_gettext_dll.o safe_gettext_dll.cpp
+    to link your application
+      gcc -O -s -o YourApp.exe YourObjects.o safe_gettext_dll.o -lstdc++ -lYourLibs

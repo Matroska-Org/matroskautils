@@ -1,0 +1,1498 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MatroskaProp\n"
+"POT-Creation-Date: 2003-10-21 00:35-0500\n"
+"PO-Revision-Date: 2004-02-20 20:29-0600\n"
+"Last-Translator: Jory Stone <vbman@toughguy.net>\n"
+"Language-Team: TEAM <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ..\..\..\../MatroskaPages.cpp:91
+#: ..\..\..\../MatroskaPages.cpp:110
+msgid " Build "
+msgstr " Versão"
+
+#: ..\..\..\../MatroskaPages.cpp:95
+msgid "Developed by"
+msgstr "Desenvolvido por"
+
+#: ..\..\..\../MatroskaPages.cpp:98
+msgid "Reads infomation about a Matroska file and R/W the Tags of a Matroska filevia a Property sheet, also allows Tooltips, Thumbnails, and more for Matroska files in Windows Explorer."
+msgstr "Lê a informação dum ficheiro Matroska e permite a leitura/escrita de Tags (etiquetas) dum ficheiro Matroska através duma folha de Propriedades, também permite Dicas, Miniaturas, e mais para ficheiros Matroska no Explorador do Windows."
+
+#: ..\..\..\../MatroskaPages.cpp:101
+msgid "Thanks to Pamel for working so hard on the Matroska tagging system."
+msgstr "Agradecimentos ao Pamel, pela sua grande devotação no sistema de \"tagging\" (etiquetagem) Matroska. "
+
+#: ..\..\..\../MatroskaPages.cpp:103
+msgid "YUV2->RGB32 Assembly Routines by alexnoe."
+msgstr "Rotinas em Assembly de YUV2->RGB32 por alexnoe."
+
+#: ..\..\..\../MatroskaPages.cpp:118
+msgid "Compiled on"
+msgstr "Compilado a"
+
+#: ..\..\..\../MatroskaPages.cpp:121
+msgid "Using ..."
+msgstr "Usando..."
+
+#: ..\..\..\../MatroskaPages.cpp:195
+#: ..\..\..\../MatroskaPages.cpp:894
+msgid "About"
+msgstr "Acerca"
+
+#: ..\..\..\../MatroskaPages.cpp:196
+#: ..\..\..\../MatroskaPages.cpp:413
+#: ..\..\..\../MatroskaPages.cpp:672
+#: ..\..\..\../MatroskaPages.cpp:1492
+#: ..\..\..\../MatroskaPages.cpp:1608
+#: ..\..\..\../MatroskaPages.cpp:1760
+#: ..\..\..\../MatroskaPages.cpp:1789
+#: ..\..\..\../MatroskaPagesTag.cpp:53
+#: ..\..\..\../MatroskaPagesTag.cpp:601
+#: ..\..\..\../MatroskaPagesTag.cpp:746
+msgid "OK"
+msgstr "OK"
+
+#: ..\..\..\../MatroskaPages.cpp:375
+msgid "Matroska Shell Extension Options"
+msgstr "Opções da Matroska Shell Extension"
+
+#: ..\..\..\../MatroskaPages.cpp:378
+msgid ""
+"Matroska Shell Ext Options Setup\n"
+"Choose which features you want enabled and configure any options."
+msgstr ""
+"Configuração das Opções da Matroska Shell Extension\n"
+"Escolha as características que quer activadas e configure qualquer opção."
+
+#: ..\..\..\../MatroskaPages.cpp:380
+msgid "Cache Size:"
+msgstr "Tamanho da cache:"
+
+#: ..\..\..\../MatroskaPages.cpp:381
+msgid "Enable Crash Catcher"
+msgstr "Activar o Detector de Crashes"
+
+#: ..\..\..\../MatroskaPages.cpp:382
+msgid "Which Property Pages to Show"
+msgstr "Quais as páginas de propriedades a mostrar"
+
+#: ..\..\..\../MatroskaPages.cpp:383
+msgid "Thumbnail Video Frame Time"
+msgstr "Tempo da imagem para a miniatura"
+
+#: ..\..\..\../MatroskaPages.cpp:384
+msgid "Thumbnail Resize Method"
+msgstr "Método de redimensionamento da miniatura"
+
+#: ..\..\..\../MatroskaPages.cpp:385
+msgid "Thumbnails"
+msgstr "Miniaturas"
+
+#: ..\..\..\../MatroskaPages.cpp:386
+msgid "Thumbnail Generation Timeout"
+msgstr "Tempo de intervalo para gerar a miniatura"
+
+#: ..\..\..\../MatroskaPages.cpp:388
+#: ..\..\..\../ShellExtension/CToolTip.cpp:292
+msgid "Language:"
+msgstr "Linguagem:"
+
+#: ..\..\..\../MatroskaPages.cpp:389
+msgid "Translation by <translator name>"
+msgstr "Translation by RiCON, Insolit"
+
+#: ..\..\..\../MatroskaPages.cpp:391
+msgid "Enable Matroska Context Menus"
+msgstr "Activar os \"Context Menus\" Matroska"
+
+#: ..\..\..\../MatroskaPages.cpp:392
+msgid "Enable Matroska File Columns"
+msgstr "Activar as Colunas para ficheiros Matroska"
+
+#: ..\..\..\../MatroskaPages.cpp:393
+msgid "Enable Matroska File Tooltips"
+msgstr "Activar as dicas sobre ficheiros Matroska"
+
+#: ..\..\..\../MatroskaPages.cpp:394
+msgid "Use short Matroska Tooltips"
+msgstr "Usar as dicas abreviadas Matroska"
+
+#: ..\..\..\../MatroskaPages.cpp:396
+msgid "Enable Matroska File Thumbnails"
+msgstr "Activar as miniaturas em ficheiros Matroska"
+
+#: ..\..\..\../MatroskaPages.cpp:398
+msgid "Show thumbnails on click (slows browsing down and only shows in the tasks view)"
+msgstr "Mostrar as miniaturas depois dum clique (atrasa a pesquisa e apenas aparece na opção de ver tarefas)"
+
+#: ..\..\..\../MatroskaPages.cpp:399
+msgid "Enable DShow (Internal Render) thumbnail generation (prefered)"
+msgstr "Activar a criação de miniaturas pelo DShow (Renderizador Interno) (recomendado)"
+
+#: ..\..\..\../MatroskaPages.cpp:400
+msgid "Enable DShow (IMediaDet) thumbnail generation"
+msgstr "Activar a criação de miniaturas pelo DShow (IMediaDet)"
+
+#: ..\..\..\../MatroskaPages.cpp:401
+#: ..\..\..\../ShellExtension/CShellExt.cpp:353
+msgid "Matroska Info"
+msgstr "Informação Matroska"
+
+#: ..\..\..\../MatroskaPages.cpp:402
+#: ..\..\..\../ShellExtension/CShellExt.cpp:427
+msgid "Matroska Tags"
+msgstr "Tags Matroska"
+
+#: ..\..\..\../MatroskaPages.cpp:403
+#: ..\..\..\../ShellExtension/CShellExt.cpp:378
+msgid "Matroska Attachments"
+msgstr "Anexados em Matroska"
+
+#: ..\..\..\../MatroskaPages.cpp:407
+msgid "Bilinear"
+msgstr "Bilinear"
+
+#: ..\..\..\../MatroskaPages.cpp:408
+msgid "Nearest Pixel"
+msgstr "Pixel mais próximo"
+
+#: ..\..\..\../MatroskaPages.cpp:409
+msgid "Bicubic"
+msgstr "Bicúbico"
+
+#: ..\..\..\../MatroskaPages.cpp:412
+#: ..\..\..\../MatroskaPages.cpp:896
+msgid "Change"
+msgstr "Alterar"
+
+#: ..\..\..\../MatroskaPages.cpp:414
+#: ..\..\..\../MatroskaPages.cpp:1493
+#: ..\..\..\../MatroskaPages.cpp:1609
+#: ..\..\..\../MatroskaPagesTag.cpp:54
+#: ..\..\..\../MatroskaPagesTag.cpp:602
+#: ..\..\..\../MatroskaPagesTag.cpp:747
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ..\..\..\../MatroskaPages.cpp:416
+msgid "Auto-Reload Tags"
+msgstr ""
+
+#: ..\..\..\../MatroskaPages.cpp:419
+msgid "If the MKV doesn't have an attached cover. The video frame at this time will be displayed via DShow"
+msgstr "Para o caso do MKV não conter uma capa anexada. A imagem de vídeo no tempo indicado será exibida por DShow"
+
+#: ..\..\..\../MatroskaPages.cpp:420
+msgid "The Column, Context Menu, Tooltip, and Thumbnail handers all share a cache of the last few files read. Each one is 4KB-10KB in memory."
+msgstr "A Coluna, o Menu Contextual, as Ajudas, e os handers das Miniaturas todos partilham um cache dos últimos ficheiros lidos. Cada um é 4KB-10KB na memória."
+
+#: ..\..\..\../MatroskaPages.cpp:421
+msgid "The number of minutes to wait before canceling thumbnail generation."
+msgstr "Número de minutos a esperar antes de cancelar a criação da miniatura."
+
+#: ..\..\..\../MatroskaPages.cpp:422
+msgid "Auto-Reload Tags after Writing."
+msgstr ""
+
+#: ..\..\..\../MatroskaPages.cpp:485
+msgid "Translation dll, 'gnu_gettext.dll' was not loaded."
+msgstr "O dll de tradução, 'gnu_gettext.dll' não foi carregado."
+
+#: ..\..\..\../MatroskaPages.cpp:485
+msgid "Error"
+msgstr "Erro"
+
+#: ..\..\..\../MatroskaPages.cpp:629
+msgid "Leave Icon"
+msgstr "Deixar o ícone"
+
+#: ..\..\..\../MatroskaPages.cpp:634
+msgid "Use Pamel's Logo with Jory colors"
+msgstr "Usar o Logo do Pamel com as cores do Jory"
+
+#: ..\..\..\../MatroskaPages.cpp:639
+msgid "Use Pamel's Logo with Blue colors"
+msgstr "Usar o Logo do Pamel com cores Azuis"
+
+#: ..\..\..\../MatroskaPages.cpp:644
+msgid "Use Jory's silly Monkey"
+msgstr "Usar o macaco idiota do Jory"
+
+#: ..\..\..\../MatroskaPages.cpp:649
+msgid "MKV Document"
+msgstr "Documento MKV"
+
+#: ..\..\..\../MatroskaPages.cpp:654
+msgid "Doll 1"
+msgstr "Boneco 1"
+
+#: ..\..\..\../MatroskaPages.cpp:659
+msgid "Doll 2"
+msgstr "Boneco 2"
+
+#: ..\..\..\../MatroskaPages.cpp:671
+msgid "Select your Matroska Icon"
+msgstr "Escolha o seu ícone Matroska"
+
+#: ..\..\..\../MatroskaPages.cpp:736
+msgid "Matroska Parser"
+msgstr "Analisador Matroska"
+
+#: ..\..\..\../MatroskaPages.cpp:737
+msgid "Parsing Matroska File"
+msgstr "Analisando o ficheiro Matroska"
+
+#: ..\..\..\../MatroskaPages.cpp:738
+#: ..\..\..\../MatroskaPages.cpp:1742
+#: ..\..\..\../MatroskaPages.cpp:1770
+#: ..\..\..\../MatroskaPages.cpp:1792
+msgid "Abort"
+msgstr "Abortar"
+
+#: ..\..\..\../MatroskaPages.cpp:815
+#: ..\..\..\../MatroskaPagesTag.cpp:2257
+#: ..\..\..\../MatroskaPagesTag.cpp:2335
+#: ..\..\..\../MatroskaPagesTag.cpp:2468
+#: ..\..\..\../MatroskaPagesTag.cpp:2688
+#: ..\..\..\../MatroskaPagesTag.cpp:2750
+#: ..\..\..\../MatroskaPagesTag.cpp:2773
+#: ..\..\..\../MatroskaPagesTag.cpp:3300
+msgid "Name"
+msgstr "Nome"
+
+#: ..\..\..\../MatroskaPages.cpp:818
+#: ..\..\..\../MatroskaPagesTag.cpp:2488
+#: ..\..\..\../MatroskaPagesTag.cpp:2775
+#: ..\..\..\../MatroskaPagesTag.cpp:3314
+msgid "Value"
+msgstr "Valor"
+
+#: ..\..\..\../MatroskaPages.cpp:889
+msgid "Matroska File Infomation"
+msgstr "Informação do ficheiro Matroska"
+
+#: ..\..\..\../MatroskaPages.cpp:890
+msgid "Track Infomation"
+msgstr "Informação da faixa"
+
+#: ..\..\..\../MatroskaPages.cpp:891
+msgid "Tracks"
+msgstr "Faixas"
+
+#: ..\..\..\../MatroskaPages.cpp:892
+msgid "Basic Infomation"
+msgstr "Informação básica"
+
+#: ..\..\..\../MatroskaPages.cpp:893
+msgid "Advanced Infomation"
+msgstr "Informação avançada"
+
+#: ..\..\..\../MatroskaPages.cpp:895
+msgid "Options"
+msgstr "Opções"
+
+#: ..\..\..\../MatroskaPages.cpp:897
+msgid "Bitrate"
+msgstr "Bitrate:"
+
+#: ..\..\..\../MatroskaPages.cpp:1066
+#: ..\..\..\../MatroskaPages.cpp:1998
+msgid "Track Language"
+msgstr "Linguagem da faixa"
+
+#: ..\..\..\../MatroskaPages.cpp:1070
+msgid "Display Size/AR"
+msgstr "Tamanho de visualização/RA"
+
+#: ..\..\..\../MatroskaPages.cpp:1077
+msgid "You have to select something to change."
+msgstr "Tem de seleccionar algo para alterar."
+
+#: ..\..\..\../MatroskaPages.cpp:1077
+#: ..\..\..\../MatroskaPages.cpp:1081
+msgid "Doh!"
+msgstr "Duh!"
+
+#: ..\..\..\../MatroskaPages.cpp:1081
+msgid "You have to select a track to change."
+msgstr "Tem de seleccionar uma faixa para alterar."
+
+#: ..\..\..\../MatroskaPages.cpp:1180
+msgid "Matroska Attachment Infomation"
+msgstr "Informação sobre o Anexo Matroska"
+
+#: ..\..\..\../MatroskaPages.cpp:1181
+#: ..\..\..\../MatroskaPages.cpp:2428
+msgid "Attachment Infomation"
+msgstr "Informação do Anexo"
+
+#: ..\..\..\../MatroskaPages.cpp:1182
+#: ..\..\..\../MatroskaPages.cpp:1183
+msgid "Attachment Preview"
+msgstr "Pré-visualização do Anexo"
+
+#: ..\..\..\../MatroskaPages.cpp:1184
+msgid "View Attachment"
+msgstr "Ver o Anexo"
+
+#: ..\..\..\../MatroskaPages.cpp:1185
+msgid "Save As"
+msgstr "Gravar como"
+
+#: ..\..\..\../MatroskaPages.cpp:1279
+#: ..\..\..\../ShellExtension/CContextMenu.cpp:418
+msgid "Filename"
+msgstr "Nome do ficheiro"
+
+#: ..\..\..\../MatroskaPages.cpp:1283
+#: ..\..\..\../ShellExtension/CContextMenu.cpp:420
+msgid "Mime Type"
+msgstr "Tipo de MIME"
+
+#: ..\..\..\../MatroskaPages.cpp:1288
+#: ..\..\..\../MatroskaPages.cpp:1300
+msgid "None"
+msgstr "Nenhum"
+
+#: ..\..\..\../MatroskaPages.cpp:1291
+msgid "Size"
+msgstr "Tamanho"
+
+#: ..\..\..\../MatroskaPages.cpp:1295
+#: ..\..\..\../ShellExtension/CContextMenu.cpp:422
+msgid "Description"
+msgstr "Descrição"
+
+#: ..\..\..\../MatroskaPages.cpp:1316
+msgid "Please wait decoding..."
+msgstr "Por favor aguarde, a descodificar..."
+
+#: ..\..\..\../MatroskaPages.cpp:1390
+msgid "Save Attachment As..."
+msgstr "Guardar Anexo como..."
+
+#: ..\..\..\../MatroskaPages.cpp:1396
+#, c-format
+msgid "Saved to: %s"
+msgstr "Gravado para: %s"
+
+#: ..\..\..\../MatroskaPages.cpp:1396
+msgid "Saved"
+msgstr "Gravado"
+
+#: ..\..\..\../MatroskaPages.cpp:1398
+#, c-format
+msgid "Failed to save: %s"
+msgstr "Falhou ao gravar: %s"
+
+#: ..\..\..\../MatroskaPages.cpp:1398
+msgid "Failed "
+msgstr "Falhou"
+
+#: ..\..\..\../MatroskaPages.cpp:1437
+#, c-format
+msgid ""
+"This file %s \n"
+"Is not handled by this Extension. Run external program? (equal to double-clicking file)"
+msgstr ""
+"Este ficheiro %s \n"
+"Não é suportado por esta Extensão. Correr um programa externo? (equivalente a um duplo clique)"
+
+#: ..\..\..\../MatroskaPages.cpp:1440
+msgid "Warning"
+msgstr ""
+
+#: ..\..\..\../MatroskaPages.cpp:1488
+#: ..\..\..\../MatroskaPagesTag.cpp:51
+msgid "Add a new Tag"
+msgstr "Adicionar uma nova Tag"
+
+#: ..\..\..\../MatroskaPages.cpp:1489
+msgid "Change the Display Size or AR"
+msgstr "Alterar o tamanho de visualização ou da RA"
+
+#: ..\..\..\../MatroskaPages.cpp:1490
+msgid "Width"
+msgstr "Largura"
+
+#: ..\..\..\../MatroskaPages.cpp:1491
+msgid "Height"
+msgstr "Altura"
+
+#: ..\..\..\../MatroskaPages.cpp:1505
+msgid "Video track not selected!"
+msgstr "Faixa de vídeo não seleccionada!"
+
+#: ..\..\..\../MatroskaPages.cpp:1505
+#: ..\..\..\../MatroskaPages.cpp:1618
+msgid "Umm..."
+msgstr "Humm..."
+
+#: ..\..\..\../MatroskaPages.cpp:1513
+#: ..\..\..\../MatroskaPages.cpp:1561
+#: ..\..\..\../MatroskaPages.cpp:1636
+#: ..\..\..\../MatroskaPages.cpp:1690
+msgid "Unable to find selected track."
+msgstr "Não foi possível de encontrar a faixa seleccionada."
+
+#: ..\..\..\../MatroskaPages.cpp:1513
+#: ..\..\..\../MatroskaPages.cpp:1561
+#: ..\..\..\../MatroskaPages.cpp:1636
+#: ..\..\..\../MatroskaPages.cpp:1639
+#: ..\..\..\../MatroskaPages.cpp:1642
+#: ..\..\..\../MatroskaPages.cpp:1690
+#: ..\..\..\../MatroskaPages.cpp:1693
+#: ..\..\..\../MatroskaPages.cpp:1696
+msgid "Fatal Error"
+msgstr "Erro fatal"
+
+#: ..\..\..\../MatroskaPages.cpp:1549
+msgid "Display size updated"
+msgstr "Tamanho de visualização actualizado"
+
+#: ..\..\..\../MatroskaPages.cpp:1549
+#: ..\..\..\../MatroskaPages.cpp:1679
+#: ..\..\..\../MatroskaPagesTag.cpp:1004
+msgid "Success"
+msgstr "Bem sucedido"
+
+#: ..\..\..\../MatroskaPages.cpp:1558
+msgid "Unable to update display size"
+msgstr "Não foi possível actualizar o tamanho de visualização"
+
+#: ..\..\..\../MatroskaPages.cpp:1606
+msgid "Select ISO-639 Language"
+msgstr "Seleccionar a linguagem ISO-639"
+
+#: ..\..\..\../MatroskaPages.cpp:1607
+msgid "Select the Language from the list"
+msgstr "Seleccione uma linguagem da lista"
+
+#: ..\..\..\../MatroskaPages.cpp:1618
+msgid "Track doesn't have an existing track language set!"
+msgstr "A faixa não tem presente uma linguagem já definida!"
+
+#: ..\..\..\../MatroskaPages.cpp:1679
+msgid "Track language updated"
+msgstr "Linguagem da faixa actualizada"
+
+#: ..\..\..\../MatroskaPages.cpp:1687
+msgid "Unable to update track language"
+msgstr "Não foi possível actualizar a linguagem da faixa"
+
+#: ..\..\..\../MatroskaPages.cpp:1740
+msgid "Bitrate Display"
+msgstr "Ecrã de Bitrate"
+
+#: ..\..\..\../MatroskaPages.cpp:1741
+msgid "Bitrate Usage:"
+msgstr "Uso do Bitrate:"
+
+#: ..\..\..\../MatroskaPages.cpp:1828
+#: ..\..\..\../MatroskaPagesTag.cpp:763
+#: ..\..\..\../MatroskaPagesTag.cpp:799
+#: ..\..\..\../MatroskaPagesTag.cpp:800
+#: ..\..\..\../MatroskaPagesTag.cpp:1158
+#: ..\..\..\../MatroskaPagesTag.cpp:1159
+#: ..\..\..\../MatroskaPagesTag.cpp:1361
+#: ..\..\..\../MatroskaPagesTagSimple.cpp:438
+#: ..\..\..\../ShellExtension/CContextMenu.cpp:389
+#: ..\..\..\../ShellExtension/CToolTip.cpp:280
+msgid "Track"
+msgstr "Faixa"
+
+#: ..\..\..\../MatroskaPages.cpp:1930
+msgid "Track Number"
+msgstr "Número da faixa"
+
+#: ..\..\..\../MatroskaPages.cpp:1943
+msgid "Track Type"
+msgstr "Tipo de faixa"
+
+#: ..\..\..\../MatroskaPages.cpp:1957
+#: ..\..\..\../ShellExtension/CContextMenu.cpp:397
+msgid "Codec ID"
+msgstr "ID do Codec"
+
+#: ..\..\..\../MatroskaPages.cpp:1973
+msgid "Extra Codec Info"
+msgstr "Informação extra do Codec"
+
+#: ..\..\..\../MatroskaPages.cpp:1988
+#: ..\..\..\../MatroskaPagesChapter.cpp:103
+#: ..\..\..\../MatroskaPagesTag.cpp:1624
+#: ..\..\..\../MatroskaPagesTag.cpp:1946
+#: ..\..\..\../MatroskaPagesTag.cpp:2176
+#: ..\..\..\../MatroskaPagesTag.cpp:2457
+#: ..\..\..\../MatroskaPagesTag.cpp:2625
+#: ..\..\..\../MatroskaPagesTag.cpp:2762
+#: ..\..\..\../MatroskaPagesTag.cpp:2973
+#: ..\..\..\../MatroskaPagesTag.cpp:2978
+#: ..\..\..\../MatroskaPagesTag.cpp:3293
+#: ..\..\..\../ShellExtension/CContextMenu.cpp:400
+#: ..\..\..\../ShellExtension/CContextMenu.cpp:520
+msgid "Language"
+msgstr "Linguagem"
+
+#: ..\..\..\../MatroskaPages.cpp:2014
+msgid "Sampling Rate"
+msgstr "Frequência"
+
+#: ..\..\..\../MatroskaPages.cpp:2030
+#, fuzzy
+msgid "Output Sampling Rate"
+msgstr "Frequência"
+
+#: ..\..\..\../MatroskaPages.cpp:2046
+msgid "Bit-Depth"
+msgstr "Profundidade de bits"
+
+#: ..\..\..\../MatroskaPages.cpp:2060
+msgid "Channel Count"
+msgstr "Contagem de canais"
+
+#: ..\..\..\../MatroskaPages.cpp:2067
+msgid "channel(s)"
+msgstr "Canais"
+
+#: ..\..\..\../MatroskaPages.cpp:2084
+msgid "Pixel Size"
+msgstr "Tamanho do pixel"
+
+#: ..\..\..\../MatroskaPages.cpp:2097
+msgid "Display Size"
+msgstr "Tamanho de visualização"
+
+#: ..\..\..\../MatroskaPages.cpp:2105
+#: ..\..\..\../MatroskaPagesTag.cpp:2792
+#: ..\..\..\../MatroskaPagesTag.cpp:2803
+#: ..\..\..\../MatroskaPagesTag.cpp:2814
+#: ..\..\..\../MatroskaPagesTag.cpp:2825
+#: ..\..\..\../MatroskaPagesTag.cpp:2836
+#: ..\..\..\../MatroskaPagesTag.cpp:2847
+#: ..\..\..\../MatroskaPagesTag.cpp:2858
+#: ..\..\..\../MatroskaPagesTag.cpp:2869
+#: ..\..\..\../MatroskaPagesTag.cpp:2880
+#: ..\..\..\../MatroskaPagesTag.cpp:2891
+#: ..\..\..\../MatroskaPagesTag.cpp:2902
+#: ..\..\..\../MatroskaPagesTag.cpp:2913
+#: ..\..\..\../MatroskaPagesTag.cpp:2924
+#: ..\..\..\../MatroskaPagesTag.cpp:2935
+#: ..\..\..\../MatroskaPagesTag.cpp:2946
+#: ..\..\..\../MatroskaPagesTag.cpp:2957
+#: ..\..\..\../MatroskaPagesTag.cpp:2968
+#: ..\..\..\../MatroskaPagesTag.cpp:2979
+#: ..\..\..\../MatroskaPagesTag.cpp:2990
+#: ..\..\..\../MatroskaPagesTag.cpp:3001
+#: ..\..\..\../MatroskaPagesTag.cpp:3012
+#: ..\..\..\../MatroskaPagesTag.cpp:3023
+#: ..\..\..\../MatroskaPagesTag.cpp:3034
+#: ..\..\..\../MatroskaPagesTag.cpp:3045
+#: ..\..\..\../MatroskaPagesTag.cpp:3056
+#: ..\..\..\../MatroskaPagesTag.cpp:3067
+#: ..\..\..\../MatroskaPagesTag.cpp:3078
+#: ..\..\..\../MatroskaPagesTag.cpp:3177
+#: ..\..\..\../MatroskaPagesTag.cpp:3188
+#: ..\..\..\../MatroskaPagesTag.cpp:3198
+msgid "N/A"
+msgstr "N/D"
+
+#: ..\..\..\../MatroskaPages.cpp:2115
+msgid "Framerate"
+msgstr "Frequência de imagem"
+
+#: ..\..\..\../MatroskaPages.cpp:2160
+#: ..\..\..\../MatroskaPagesChapter.cpp:129
+#: ..\..\..\../MatroskaPagesTagSimple.cpp:132
+#: ..\..\..\../ShellExtension/CContextMenu.cpp:542
+msgid "Track UID"
+msgstr "UID da faixa"
+
+#: ..\..\..\../MatroskaPages.cpp:2179
+msgid "Interlaced"
+msgstr "Interlaçado"
+
+#: ..\..\..\../MatroskaPages.cpp:2192
+msgid "Colordepth"
+msgstr "Profundidade de cor"
+
+#: ..\..\..\../MatroskaPages.cpp:2207
+msgid "Lacing Flag"
+msgstr "Flag de Lacing"
+
+#: ..\..\..\../MatroskaPages.cpp:2220
+msgid "Default Flag"
+msgstr "Flag por defeito"
+
+#: ..\..\..\../MatroskaPages.cpp:2233
+msgid "Timecode Scale"
+msgstr "Escala do código temporal"
+
+#: ..\..\..\../MatroskaPages.cpp:2246
+msgid "Max Cache"
+msgstr "Cache Max"
+
+#: ..\..\..\../MatroskaPages.cpp:2259
+msgid "Min Cache"
+msgstr "Cache Mín"
+
+#: ..\..\..\../MatroskaPages.cpp:2272
+msgid "Duration"
+msgstr "Duração"
+
+#: ..\..\..\../MatroskaPages.cpp:2287
+msgid "Date"
+msgstr "Data"
+
+#: ..\..\..\../MatroskaPages.cpp:2301
+#: ..\..\..\../MatroskaPagesTag.cpp:1751
+#: ..\..\..\../MatroskaPagesTag.cpp:3182
+#: ..\..\..\../MatroskaPagesTag.cpp:3187
+msgid "Muxing App"
+msgstr "Aplicação de mistura"
+
+#: ..\..\..\../MatroskaPages.cpp:2314
+#: ..\..\..\../MatroskaPagesTag.cpp:1758
+#: ..\..\..\../MatroskaPagesTag.cpp:3192
+#: ..\..\..\../MatroskaPagesTag.cpp:3197
+msgid "Writing App"
+msgstr "Aplicação de escrita"
+
+#: ..\..\..\../MatroskaPages.cpp:2328
+msgid "Total MetaSeek Elements Size"
+msgstr "Tamanho total dos elementos MetaSeek"
+
+#: ..\..\..\../MatroskaPages.cpp:2342
+msgid "Total Cue Elements Size"
+msgstr "Tamanho total dos elementos Cue"
+
+#: ..\..\..\../MatroskaPages.cpp:2356
+msgid "Cluster Count"
+msgstr "Contagem dos Clusters"
+
+#: ..\..\..\../MatroskaPages.cpp:2363
+msgid "clusters"
+msgstr "clusters"
+
+#: ..\..\..\../MatroskaPages.cpp:2441
+msgid "No Attachments Found"
+msgstr "Não foram encontrados anexos"
+
+#: ..\..\..\../MatroskaPages.cpp:2555
+msgid "Dummy string"
+msgstr "This is where you would enter the translated string"
+
+#: ..\..\..\../MatroskaPagesChapter.cpp:57
+#: ..\..\..\../ShellExtension/CContextMenu.cpp:394
+#: ..\..\..\../ShellExtension/CContextMenu.cpp:416
+#: ..\..\..\../ShellExtension/CContextMenu.cpp:483
+msgid "UID"
+msgstr "IDU"
+
+#: ..\..\..\../MatroskaPagesChapter.cpp:67
+#: ..\..\..\../ShellExtension/CContextMenu.cpp:491
+msgid "Start Time"
+msgstr ""
+
+#: ..\..\..\../MatroskaPagesChapter.cpp:76
+#: ..\..\..\../ShellExtension/CContextMenu.cpp:498
+msgid "End Time"
+msgstr ""
+
+#: ..\..\..\../MatroskaPagesChapter.cpp:89
+#: ..\..\..\../ShellExtension/CContextMenu.cpp:509
+#, fuzzy
+msgid "Display String"
+msgstr "Tamanho de visualização"
+
+#: ..\..\..\../MatroskaPagesChapter.cpp:94
+#: ..\..\..\../ShellExtension/CContextMenu.cpp:513
+#, fuzzy
+msgid "String"
+msgstr "Dados da String"
+
+#: ..\..\..\../MatroskaPagesChapter.cpp:112
+#: ..\..\..\../ShellExtension/CContextMenu.cpp:527
+#, fuzzy
+msgid "Country"
+msgstr "Contador do Play"
+
+#: ..\..\..\../MatroskaPagesChapter.cpp:124
+#: ..\..\..\../ShellExtension/CContextMenu.cpp:538
+#, fuzzy
+msgid "Track UID(s))"
+msgstr "UID da faixa"
+
+#: ..\..\..\../MatroskaPagesChapter.cpp:159
+msgid "Chapters"
+msgstr ""
+
+#: ..\..\..\../MatroskaPagesChapter.cpp:167
+#: ..\..\..\../MatroskaPagesTag.cpp:753
+#: ..\..\..\../MatroskaPagesTag.cpp:803
+#: ..\..\..\../MatroskaPagesTag.cpp:804
+#: ..\..\..\../MatroskaPagesTag.cpp:1162
+#: ..\..\..\../MatroskaPagesTag.cpp:1163
+#: ..\..\..\../MatroskaPagesTag.cpp:1372
+#: ..\..\..\../ShellExtension/CContextMenu.cpp:457
+#, fuzzy
+msgid "Chapter"
+msgstr "Alterar"
+
+#: ..\..\..\../MatroskaPagesChapter.cpp:226
+#, fuzzy
+msgid "Matroska Chapter Infomation"
+msgstr "Informação do ficheiro Matroska"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:52
+msgid "Choose the type of tag to add"
+msgstr "Escolha o tipo de Tag que deseja adicionar"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:598
+msgid "Add Simple Tag"
+msgstr "Adicionar uma Tag simples"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:599
+msgid "Name:"
+msgstr "Nome:"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:600
+msgid "Value:"
+msgstr "Valor:"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:744
+msgid "Add UID"
+msgstr ""
+
+#: ..\..\..\../MatroskaPagesTag.cpp:745
+msgid "Select or type in the UID to add:"
+msgstr ""
+
+#: ..\..\..\../MatroskaPagesTag.cpp:773
+#: ..\..\..\../MatroskaPagesTag.cpp:807
+#: ..\..\..\../MatroskaPagesTag.cpp:808
+#: ..\..\..\../MatroskaPagesTag.cpp:1166
+#: ..\..\..\../MatroskaPagesTag.cpp:1167
+#: ..\..\..\../MatroskaPagesTag.cpp:1383
+#: ..\..\..\../ShellExtension/CContextMenu.cpp:413
+msgid "Attachment"
+msgstr "Anexo"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:816
+msgid "No UID Selected"
+msgstr ""
+
+#: ..\..\..\../MatroskaPagesTag.cpp:913
+msgid "The Matroska Tagger"
+msgstr "O Tagger Matroska"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:916
+#, fuzzy
+msgid "Tag Entries:"
+msgstr "Campo da Tag:"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:917
+msgid "Assigned UIDs:"
+msgstr ""
+
+#: ..\..\..\../MatroskaPagesTag.cpp:918
+msgid "Tag Type:"
+msgstr "Tipo de Tag:"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:919
+msgid "Tag Field:"
+msgstr "Campo da Tag:"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:920
+msgid "Field Text:"
+msgstr "Texto do campo:"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:921
+msgid "Tag Entry Tags"
+msgstr ""
+
+#: ..\..\..\../MatroskaPagesTag.cpp:922
+#: ..\..\..\../MatroskaPagesTag.cpp:924
+#: ..\..\..\../MatroskaPagesTag.cpp:927
+msgid "Add"
+msgstr "Adicionar"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:923
+#: ..\..\..\../MatroskaPagesTag.cpp:925
+#: ..\..\..\../MatroskaPagesTag.cpp:928
+msgid "Delete"
+msgstr "Apagar"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:929
+msgid "Export Tags as XML"
+msgstr "Exportar as Tags como XML"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:930
+msgid "Import"
+msgstr "Importar"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:931
+msgid "Reload"
+msgstr "Recarregar"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:932
+msgid "Save"
+msgstr "Gravar"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1004
+msgid "Tags Written."
+msgstr "Tags escritas."
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1011
+msgid "Failed to write tags"
+msgstr "A escrita de Tags falhou"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1044
+msgid "Export Tags As XML To..."
+msgstr "Exportar as Tags como XML para..."
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1050
+msgid "Failed to save XML tag file."
+msgstr "Falhou a gravação do ficheiro da Tag XML"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1050
+msgid "Unable to save"
+msgstr "Não foi possível"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1070
+msgid "Open file to import tags..."
+msgstr "Abrir o ficheiro para importar as Tags..."
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1303
+msgid "No tag element found"
+msgstr "Não foi encontrado o elemento Tag"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1305
+msgid "Tag element found"
+msgstr "Elemento Tag encontrado"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1324
+msgid "Tag"
+msgstr ""
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1430
+#: ..\..\..\../MatroskaPagesTag.cpp:2174
+#: ..\..\..\../MatroskaPagesTag.cpp:2614
+#: ..\..\..\../MatroskaPagesTag.cpp:2619
+#: ..\..\..\../MatroskaPagesTag.cpp:3455
+msgid "MultiComment"
+msgstr "MultiComentários"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1437
+#: ..\..\..\../MatroskaPagesTag.cpp:2197
+#: ..\..\..\../MatroskaPagesTag.cpp:2628
+#: ..\..\..\../MatroskaPagesTag.cpp:2633
+#: ..\..\..\../MatroskaPagesTag.cpp:3459
+msgid "MultiCommercial"
+msgstr "MultiAnúncios"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1444
+#: ..\..\..\../MatroskaPagesTag.cpp:2224
+#: ..\..\..\../MatroskaPagesTag.cpp:2655
+#: ..\..\..\../MatroskaPagesTag.cpp:2660
+#: ..\..\..\../MatroskaPagesTag.cpp:3466
+msgid "MultiDate"
+msgstr "MultiData"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1451
+#: ..\..\..\../MatroskaPagesTag.cpp:2251
+#: ..\..\..\../MatroskaPagesTag.cpp:2674
+#: ..\..\..\../MatroskaPagesTag.cpp:2679
+#: ..\..\..\../MatroskaPagesTag.cpp:3473
+msgid "MultiEntity"
+msgstr "MultiEntidade"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1458
+#: ..\..\..\../MatroskaPagesTag.cpp:2278
+#: ..\..\..\../MatroskaPagesTag.cpp:2699
+#: ..\..\..\../MatroskaPagesTag.cpp:2704
+#: ..\..\..\../MatroskaPagesTag.cpp:3480
+msgid "MultiIdentifier"
+msgstr "MultiIdentificador"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1465
+#: ..\..\..\../MatroskaPagesTag.cpp:2301
+#: ..\..\..\../MatroskaPagesTag.cpp:2718
+#: ..\..\..\../MatroskaPagesTag.cpp:2723
+#: ..\..\..\../MatroskaPagesTag.cpp:3487
+msgid "MultiLegal"
+msgstr "MultiLegal"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1472
+#: ..\..\..\../MatroskaPagesTag.cpp:2329
+#: ..\..\..\../MatroskaPagesTag.cpp:2737
+#: ..\..\..\../MatroskaPagesTag.cpp:2742
+#: ..\..\..\../MatroskaPagesTag.cpp:3494
+msgid "MultiTitle"
+msgstr "MultiTítulo"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1480
+#: ..\..\..\../MatroskaPagesTag.cpp:2155
+#: ..\..\..\../MatroskaPagesTag.cpp:2765
+#: ..\..\..\../MatroskaPagesTag.cpp:2770
+msgid "Simple Tag"
+msgstr "Tag Simples"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1488
+#: ..\..\..\../MatroskaPagesTag.cpp:2786
+#: ..\..\..\../MatroskaPagesTag.cpp:2791
+msgid "Abstract"
+msgstr "Abstracto"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1496
+#: ..\..\..\../MatroskaPagesTag.cpp:1801
+#: ..\..\..\../MatroskaPagesTag.cpp:2797
+#: ..\..\..\../MatroskaPagesTag.cpp:2802
+msgid "Archival Location"
+msgstr "Localização dos arquivos "
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1504
+#: ..\..\..\../MatroskaPagesTag.cpp:1810
+#: ..\..\..\../MatroskaPagesTag.cpp:2808
+#: ..\..\..\../MatroskaPagesTag.cpp:2813
+msgid "Audio Gain"
+msgstr "Ganho do áudio"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1512
+#: ..\..\..\../MatroskaPagesTag.cpp:1819
+#: ..\..\..\../MatroskaPagesTag.cpp:2819
+#: ..\..\..\../MatroskaPagesTag.cpp:2824
+msgid "Audio Genre"
+msgstr "Género musical"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1520
+#: ..\..\..\../MatroskaPagesTag.cpp:1828
+#: ..\..\..\../MatroskaPagesTag.cpp:2830
+#: ..\..\..\../MatroskaPagesTag.cpp:2835
+msgid "Audio Peak"
+msgstr "Altura máxima do áudio"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1528
+#: ..\..\..\../MatroskaPagesTag.cpp:1837
+#: ..\..\..\../MatroskaPagesTag.cpp:2841
+#: ..\..\..\../MatroskaPagesTag.cpp:2846
+msgid "Audio Secondary Genre"
+msgstr "Género musical secundário"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1536
+#: ..\..\..\../MatroskaPagesTag.cpp:1846
+#: ..\..\..\../MatroskaPagesTag.cpp:2852
+#: ..\..\..\../MatroskaPagesTag.cpp:2857
+msgid "Bibliography"
+msgstr "Bibliografia"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1544
+#: ..\..\..\../MatroskaPagesTag.cpp:1855
+#: ..\..\..\../MatroskaPagesTag.cpp:2863
+#: ..\..\..\../MatroskaPagesTag.cpp:2868
+msgid "BPM"
+msgstr "BPM"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1552
+#: ..\..\..\../MatroskaPagesTag.cpp:1864
+#: ..\..\..\../MatroskaPagesTag.cpp:2874
+#: ..\..\..\../MatroskaPagesTag.cpp:2879
+msgid "Capture DPI"
+msgstr "Capturar DPI"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1560
+#: ..\..\..\../MatroskaPagesTag.cpp:1873
+#: ..\..\..\../MatroskaPagesTag.cpp:2885
+#: ..\..\..\../MatroskaPagesTag.cpp:2890
+msgid "Capture Palette Setting"
+msgstr "Capturar os parâmetros da palete"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1568
+#: ..\..\..\../MatroskaPagesTag.cpp:1882
+#: ..\..\..\../MatroskaPagesTag.cpp:2896
+#: ..\..\..\../MatroskaPagesTag.cpp:2901
+msgid "Cropped"
+msgstr "Cortada"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1576
+#: ..\..\..\../MatroskaPagesTag.cpp:1891
+#: ..\..\..\../MatroskaPagesTag.cpp:2907
+#: ..\..\..\../MatroskaPagesTag.cpp:2912
+msgid "Disc Track"
+msgstr "Faixa do disco"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1584
+#: ..\..\..\../MatroskaPagesTag.cpp:1900
+#: ..\..\..\../MatroskaPagesTag.cpp:2918
+#: ..\..\..\../MatroskaPagesTag.cpp:2923
+msgid "Encoder"
+msgstr "Codificador"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1592
+#: ..\..\..\../MatroskaPagesTag.cpp:1910
+#: ..\..\..\../MatroskaPagesTag.cpp:2929
+#: ..\..\..\../MatroskaPagesTag.cpp:2934
+msgid "Encode Settings"
+msgstr "Parâmetros do codificador"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1600
+#: ..\..\..\../MatroskaPagesTag.cpp:1919
+#: ..\..\..\../MatroskaPagesTag.cpp:2940
+#: ..\..\..\../MatroskaPagesTag.cpp:2945
+msgid "File"
+msgstr "Ficheiro"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1608
+#: ..\..\..\../MatroskaPagesTag.cpp:1928
+#: ..\..\..\../MatroskaPagesTag.cpp:2951
+#: ..\..\..\../MatroskaPagesTag.cpp:2956
+msgid "Initial Key"
+msgstr "Chave inicial"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1616
+#: ..\..\..\../MatroskaPagesTag.cpp:1937
+#: ..\..\..\../MatroskaPagesTag.cpp:2962
+#: ..\..\..\../MatroskaPagesTag.cpp:2967
+msgid "Keywords"
+msgstr "Palavras chave"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1632
+#: ..\..\..\../MatroskaPagesTag.cpp:1955
+#: ..\..\..\../MatroskaPagesTag.cpp:2984
+#: ..\..\..\../MatroskaPagesTag.cpp:2989
+msgid "Length"
+msgstr "Duração"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1640
+#: ..\..\..\../MatroskaPagesTag.cpp:1973
+#: ..\..\..\../MatroskaPagesTag.cpp:2995
+#: ..\..\..\../MatroskaPagesTag.cpp:3000
+msgid "Official Audio File URL"
+msgstr "URL do ficheiro de áudio oficial"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1648
+#: ..\..\..\../MatroskaPagesTag.cpp:1982
+#: ..\..\..\../MatroskaPagesTag.cpp:3006
+#: ..\..\..\../MatroskaPagesTag.cpp:3011
+msgid "Official Audio Source URL"
+msgstr "URL do ficheiro de áudio original"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1656
+#: ..\..\..\../MatroskaPagesTag.cpp:1991
+#: ..\..\..\../MatroskaPagesTag.cpp:3017
+#: ..\..\..\../MatroskaPagesTag.cpp:3022
+msgid "Original Dimensions"
+msgstr "Dimensões originais"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1664
+#: ..\..\..\../MatroskaPagesTag.cpp:2000
+#: ..\..\..\../MatroskaPagesTag.cpp:3028
+#: ..\..\..\../MatroskaPagesTag.cpp:3033
+msgid "Original Media Type"
+msgstr "Tipo de media original"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1672
+#: ..\..\..\../MatroskaPagesTag.cpp:2009
+#: ..\..\..\../MatroskaPagesTag.cpp:3039
+#: ..\..\..\../MatroskaPagesTag.cpp:3044
+msgid "Play Counter"
+msgstr "Contador do Play"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1680
+#: ..\..\..\../MatroskaPagesTag.cpp:2018
+#: ..\..\..\../MatroskaPagesTag.cpp:3050
+#: ..\..\..\../MatroskaPagesTag.cpp:3055
+msgid "Playlist Delay"
+msgstr "Atraso da playlist"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1688
+#: ..\..\..\../MatroskaPagesTag.cpp:2027
+#: ..\..\..\../MatroskaPagesTag.cpp:3061
+#: ..\..\..\../MatroskaPagesTag.cpp:3066
+msgid "Popularimeter"
+msgstr "Medidor de popularidade"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1696
+#: ..\..\..\../MatroskaPagesTag.cpp:2052
+#: ..\..\..\../MatroskaPagesTag.cpp:3072
+#: ..\..\..\../MatroskaPagesTag.cpp:3077
+msgid "Record Location"
+msgstr "Localização da gravação"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1704
+#: ..\..\..\../MatroskaPagesTag.cpp:2061
+#: ..\..\..\../MatroskaPagesTag.cpp:3083
+#: ..\..\..\../MatroskaPagesTag.cpp:3088
+msgid "Set Part"
+msgstr "Definir parte"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1712
+#: ..\..\..\../MatroskaPagesTag.cpp:2070
+#: ..\..\..\../MatroskaPagesTag.cpp:3094
+#: ..\..\..\../MatroskaPagesTag.cpp:3099
+msgid "Source"
+msgstr "Origem"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1720
+#: ..\..\..\../MatroskaPagesTag.cpp:2079
+#: ..\..\..\../MatroskaPagesTag.cpp:3105
+#: ..\..\..\../MatroskaPagesTag.cpp:3110
+msgid "Source Form"
+msgstr "Modelo da origem"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1728
+#: ..\..\..\../MatroskaPagesTag.cpp:2088
+#: ..\..\..\../MatroskaPagesTag.cpp:3116
+#: ..\..\..\../MatroskaPagesTag.cpp:3121
+msgid "Sub Genre"
+msgstr "Sub Género"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1736
+#: ..\..\..\../MatroskaPagesTag.cpp:2097
+#: ..\..\..\../MatroskaPagesTag.cpp:3127
+#: ..\..\..\../MatroskaPagesTag.cpp:3132
+msgid "Subject"
+msgstr "Assunto"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1743
+#: ..\..\..\../MatroskaPagesTag.cpp:3171
+#: ..\..\..\../MatroskaPagesTag.cpp:3176
+msgid "User Defined URL"
+msgstr "URL definido pelo utilizador"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:1964
+msgid "Mood"
+msgstr "Tom"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:2036
+msgid "Product"
+msgstr "Produto"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:2180
+msgid "Comment"
+msgstr "Comentário"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:2199
+#: ..\..\..\../MatroskaPagesTag.cpp:2226
+#: ..\..\..\../MatroskaPagesTag.cpp:2253
+#: ..\..\..\../MatroskaPagesTag.cpp:2280
+#: ..\..\..\../MatroskaPagesTag.cpp:2303
+#: ..\..\..\../MatroskaPagesTag.cpp:2331
+msgid "Type"
+msgstr "Tipo"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:2203
+msgid "Currency"
+msgstr "Unidade"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:2207
+msgid "Price"
+msgstr "Preço"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:2230
+#: ..\..\..\../MatroskaPagesTag.cpp:2669
+#: ..\..\..\../MatroskaPagesTag.cpp:3370
+msgid "Date Begin"
+msgstr "Data de início"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:2234
+#: ..\..\..\../MatroskaPagesTag.cpp:2671
+#: ..\..\..\../MatroskaPagesTag.cpp:3396
+msgid "Date End"
+msgstr "Data de fim"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:2261
+#: ..\..\..\../MatroskaPagesTag.cpp:2311
+#: ..\..\..\../MatroskaPagesTag.cpp:2346
+#: ..\..\..\../MatroskaPagesTag.cpp:2548
+#: ..\..\..\../MatroskaPagesTag.cpp:2648
+#: ..\..\..\../MatroskaPagesTag.cpp:2690
+#: ..\..\..\../MatroskaPagesTag.cpp:2734
+#: ..\..\..\../MatroskaPagesTag.cpp:2756
+#: ..\..\..\../MatroskaPagesTag.cpp:3356
+msgid "URL"
+msgstr "URL"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:2284
+msgid "String Data"
+msgstr "Dados da String"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:2340
+#: ..\..\..\../MatroskaTrackData.cpp:258
+msgid "Subtitle"
+msgstr "Legenda"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:2371
+#: ..\..\..\../MatroskaPagesTag.cpp:2713
+#: ..\..\..\../MatroskaPagesTag.cpp:2793
+#: ..\..\..\../MatroskaPagesTag.cpp:2804
+#: ..\..\..\../MatroskaPagesTag.cpp:2859
+#: ..\..\..\../MatroskaPagesTag.cpp:2903
+#: ..\..\..\../MatroskaPagesTag.cpp:2925
+#: ..\..\..\../MatroskaPagesTag.cpp:2936
+#: ..\..\..\../MatroskaPagesTag.cpp:2947
+#: ..\..\..\../MatroskaPagesTag.cpp:2969
+#: ..\..\..\../MatroskaPagesTag.cpp:3035
+#: ..\..\..\../MatroskaPagesTag.cpp:3101
+#: ..\..\..\../MatroskaPagesTag.cpp:3112
+#: ..\..\..\../MatroskaPagesTag.cpp:3134
+#: ..\..\..\../MatroskaPagesTag.cpp:3189
+#: ..\..\..\../MatroskaPagesTag.cpp:3199
+#: ..\..\..\../MatroskaPagesTag.cpp:3234
+msgid "Unicode String"
+msgstr "String Unicode"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:2392
+#: ..\..\..\../MatroskaPagesTag.cpp:2826
+#: ..\..\..\../MatroskaPagesTag.cpp:2848
+#: ..\..\..\../MatroskaPagesTag.cpp:2958
+#: ..\..\..\../MatroskaPagesTag.cpp:2980
+#: ..\..\..\../MatroskaPagesTag.cpp:3002
+#: ..\..\..\../MatroskaPagesTag.cpp:3013
+#: ..\..\..\../MatroskaPagesTag.cpp:3024
+#: ..\..\..\../MatroskaPagesTag.cpp:3079
+#: ..\..\..\../MatroskaPagesTag.cpp:3123
+#: ..\..\..\../MatroskaPagesTag.cpp:3178
+#: ..\..\..\../MatroskaPagesTag.cpp:3248
+msgid "ASCII String"
+msgstr "String ASCII"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:2404
+#: ..\..\..\../MatroskaPagesTag.cpp:2815
+#: ..\..\..\../MatroskaPagesTag.cpp:2837
+#: ..\..\..\../MatroskaPagesTag.cpp:2870
+#: ..\..\..\../MatroskaPagesTag.cpp:3255
+msgid "Floating Point Number"
+msgstr "Número de vírgula flutuante"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:2415
+#: ..\..\..\../MatroskaPagesTag.cpp:2881
+#: ..\..\..\../MatroskaPagesTag.cpp:2892
+#: ..\..\..\../MatroskaPagesTag.cpp:2914
+#: ..\..\..\../MatroskaPagesTag.cpp:2991
+#: ..\..\..\../MatroskaPagesTag.cpp:3046
+#: ..\..\..\../MatroskaPagesTag.cpp:3057
+#: ..\..\..\../MatroskaPagesTag.cpp:3090
+#: ..\..\..\../MatroskaPagesTag.cpp:3263
+msgid "Positive Integer"
+msgstr "Inteiro positivo"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:2426
+#: ..\..\..\../MatroskaPagesTag.cpp:3068
+#: ..\..\..\../MatroskaPagesTag.cpp:3271
+msgid "Integer"
+msgstr "Inteiro"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:2437
+#: ..\..\..\../MatroskaPagesTag.cpp:2621
+#: ..\..\..\../MatroskaPagesTag.cpp:2623
+#: ..\..\..\../MatroskaPagesTag.cpp:3279
+msgid "Comments"
+msgstr "Comentários"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:2508
+#: ..\..\..\../MatroskaPagesTag.cpp:2752
+#: ..\..\..\../MatroskaPagesTag.cpp:3328
+msgid "SubTitle"
+msgstr "Legenda"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:2528
+#: ..\..\..\../MatroskaPagesTag.cpp:2754
+#: ..\..\..\../MatroskaPagesTag.cpp:3342
+msgid "Edition"
+msgstr "Edição"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:2560
+#: ..\..\..\../MatroskaPagesTag.cpp:2650
+#: ..\..\..\../MatroskaPagesTag.cpp:2692
+#: ..\..\..\../MatroskaPagesTag.cpp:2758
+#: ..\..\..\../MatroskaPagesTag.cpp:3363
+msgid "Email"
+msgstr "Email"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:2642
+msgid "Price Currency"
+msgstr "Unidade monetária"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:2644
+msgid "Price Date"
+msgstr "Data do preço"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:2646
+msgid "Price Amount"
+msgstr "Quantia de dinheiro"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:2652
+#: ..\..\..\../MatroskaPagesTag.cpp:2694
+#: ..\..\..\../MatroskaPagesTag.cpp:2732
+#: ..\..\..\../MatroskaPagesTag.cpp:2760
+msgid "Address"
+msgstr "Morada"
+
+#: ..\..\..\../MatroskaPagesTag.cpp:2715
+msgid "Binary"
+msgstr "Binário"
+
+#: ..\..\..\../MatroskaPagesTagSimple.cpp:395
+msgid "Unable to write tags. Please check that the file isn't open in another program. If you are watching the file please stop it and try again"
+msgstr "Não foi possível escrever as Tags. Por favor certifique-se que o ficheiro não está aberto noutro programa. Se estiver a visualizar o ficheiro por favor pare e tente de novo"
+
+#: ..\..\..\../MatroskaPagesTagSimple.cpp:395
+msgid "Unable to write tags"
+msgstr "Não foi possível escrever as Tags"
+
+#: ..\..\..\../MatroskaTrackData.cpp:252
+msgid "Audio"
+msgstr "Áudio"
+
+#: ..\..\..\../MatroskaTrackData.cpp:255
+msgid "Video"
+msgstr "Vídeo"
+
+#: ..\..\..\../MatroskaTrackData.cpp:261
+msgid "Internal Tag Track (You shouldn't be seeing this :P)"
+msgstr "Tag interna da faixa (Não deveria estar a ver isto :P)"
+
+#: ..\..\..\../MatroskaTrackData.cpp:264
+msgid "Unknown"
+msgstr "Desconhecido"
+
+#: ..\..\..\../MatroskaTrackData.cpp:1817
+#, fuzzy
+msgid "Unable to get temporary filename."
+msgstr "Não foi possível actualizar a linguagem da faixa"
+
+#: ..\..\..\../MatroskaTrackData.cpp:1828
+#: ..\..\..\../MatroskaTrackData.cpp:1836
+msgid "Failed to open attached file"
+msgstr "Falhou a abertura do ficheiro anexado"
+
+#: ..\..\..\../MatroskaUtils.cpp:920
+#: ..\..\..\../MatroskaUtils.cpp:930
+#, fuzzy
+msgid "Error Parsing Matroska File"
+msgstr "Analisando o ficheiro Matroska"
+
+#: ..\..\..\../MatroskaUtils.cpp:922
+#: ..\..\..\../MatroskaUtils.cpp:1970
+#: ..\..\..\../MatroskaUtils.cpp:2144
+#: ..\..\..\../MatroskaUtilsTag.cpp:2988
+msgid "Exception: "
+msgstr ""
+
+#: ..\..\..\../MatroskaUtils.cpp:1083
+msgid "More than one track found with the same UID, aborting..."
+msgstr ""
+
+#: ..\..\..\../MatroskaUtils.cpp:1791
+#: ..\..\..\../MatroskaUtils.cpp:1990
+#: ..\..\..\../MatroskaUtilsTag.cpp:2291
+#, fuzzy
+msgid "Unable open file. Please check that the file isn't open in another program."
+msgstr "Não foi possível escrever as Tags. Por favor certifique-se que o ficheiro não está aberto noutro programa. Se estiver a visualizar o ficheiro por favor pare e tente de novo"
+
+#: ..\..\..\../MatroskaUtils.cpp:1798
+#: ..\..\..\../MatroskaUtils.cpp:1802
+#: ..\..\..\../MatroskaUtils.cpp:1997
+#: ..\..\..\../MatroskaUtils.cpp:2002
+#: ..\..\..\../MatroskaUtilsTag.cpp:2298
+#: ..\..\..\../MatroskaUtilsTag.cpp:2302
+msgid "No EBML header was found."
+msgstr "Não foi encontrado o cabeçalho EBML."
+
+#: ..\..\..\../MatroskaUtils.cpp:1812
+#: ..\..\..\../MatroskaUtils.cpp:2011
+#: ..\..\..\../MatroskaUtilsTag.cpp:2312
+msgid "No Segment/Level 0 Element was found."
+msgstr ""
+
+#: ..\..\..\../MatroskaUtils.cpp:1815
+#: ..\..\..\../MatroskaUtils.cpp:2014
+#: ..\..\..\../MatroskaUtilsTag.cpp:2315
+msgid "First Level 0 Element was not a Segment."
+msgstr ""
+
+#: ..\..\..\../MatroskaUtils.cpp:1964
+#, fuzzy
+msgid "No Track Display Size found to update"
+msgstr "Tamanho de visualização actualizado"
+
+#: ..\..\..\../MatroskaUtils.cpp:1968
+#, fuzzy
+msgid "Failed to update Track Display Size."
+msgstr "Não foi possível actualizar o tamanho de visualização"
+
+#: ..\..\..\../MatroskaUtils.cpp:2076
+msgid "New Track Language is longer than the previous."
+msgstr ""
+
+#: ..\..\..\../MatroskaUtils.cpp:2138
+#, fuzzy
+msgid "No Track Language found to update"
+msgstr "Linguagem da faixa actualizada"
+
+#: ..\..\..\../MatroskaUtils.cpp:2142
+#, fuzzy
+msgid "Failed to update Track Language."
+msgstr "Não foi possível actualizar a linguagem da faixa"
+
+#: ..\..\..\../MatroskaUtilsTag.cpp:2945
+#: ..\..\..\../MatroskaUtilsTag.cpp:2952
+#, fuzzy
+msgid "Failed to seek in file."
+msgstr "Falhou a gravação do ficheiro da Tag XML"
+
+#: ..\..\..\../MatroskaUtilsTag.cpp:2976
+msgid "Tags were written. However the segment size couldn't be updated. Therefore the tags may not be visible to some programs, as this is a bending of the specs."
+msgstr ""
+
+#: ..\..\..\../MatroskaUtilsTag.cpp:2986
+#, fuzzy
+msgid "Failed to write tags."
+msgstr "A escrita de Tags falhou"
+
+#: ..\..\..\../ShellExtension/CContextMenu.cpp:375
+msgid "Configure MatroskaProp"
+msgstr "Configure MatroskaProp"
+
+#: ..\..\..\../ShellExtension/CContextMenu.cpp:434
+msgid "Attached Image"
+msgstr "Imagem anexada"
+
+#: ..\..\..\../ShellExtension/CContextMenu.cpp:445
+msgid "Open with Default App"
+msgstr "Abrir com a aplicação por defeito"
+
+#: ..\..\..\../ShellExtension/CShellExt.cpp:403
+#, fuzzy
+msgid "Matroska Chapters"
+msgstr "Analisador Matroska"
+
+#: ..\..\..\../ShellExtension/CToolTip.cpp:327
+msgid "Video Tracks:"
+msgstr "Faixas de vídeo:"
+
+#: ..\..\..\../ShellExtension/CToolTip.cpp:333
+msgid "Audio Tracks:"
+msgstr "Faixas de áudio:"
+
+#: ..\..\..\../ShellExtension/CToolTip.cpp:339
+msgid "Subtitle Tracks:"
+msgstr "Faixas de legendas:"
+
+#: ..\..\..\../ShellExtension/CToolTip.cpp:346
+msgid "Filesize:"
+msgstr "Tamanho do ficheiro:"
+
+#: ..\..\..\../ShellExtension/CToolTip.cpp:352
+msgid "Avg Bitrate:"
+msgstr "Bitrate médio:"
+
+#: ..\..\..\../ShellExtension/CToolTip.cpp:357
+msgid "Length:"
+msgstr "Duração:"
+

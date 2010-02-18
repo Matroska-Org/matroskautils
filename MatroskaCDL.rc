@@ -1,0 +1,770 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_TREEDIALOG DIALOG  0, 0, 196, 197
+STYLE DS_SETFONT | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        " Matroska Info Settings",IDC_STATIC,1,1,192,193
+    CONTROL         "Auto-load DAR from Matroska files",IDC_CHECK_DAR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,70,170,10
+    LTEXT           "Set the various settings for the Matroska Info CDL plugin. Developed by Jory Stone <jcsston@toughguy.net> and John Cannon <spyder482@yahoo.com>\n",
+                    IDC_STATIC,54,12,136,44
+    CONTROL         110,IDC_STATIC,"Static",SS_BITMAP,6,12,43,39
+    GROUPBOX        "Settings",IDC_STATIC,6,58,182,134
+    CONTROL         "Display Advanced Tag Editor",IDC_CHECK_TAG_TAB,"Button",
+                    BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,10,104,170,
+                    12
+    LTEXT           "Matroska Tag Tabs in the File Properties dialog",
+                    IDC_STATIC,14,94,170,8
+    CONTROL         "Display Simple Tag Editor",IDC_CHECK_TAG_TAB_SIMPLE,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,10,
+                    116,170,12
+END
+
+IDD_PROPPAGE DIALOG  0, 0, 236, 221
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_LIST_VIEW_TRACKS,"SysListView32",
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_SORTASCENDING | 
+                    LVS_AUTOARRANGE | WS_BORDER | WS_TABSTOP,3,22,58,150
+    CONTROL         "Basic Infomation",IDC_RADIO_BASIC_INFOMATION,"Button",
+                    BS_AUTORADIOBUTTON,68,12,71,14
+    CONTROL         "Advanced Infomation",IDC_RADIO_ADVANCED_INFO,"Button",
+                    BS_AUTORADIOBUTTON,142,12,85,14
+    CONTROL         "List1",IDC_LIST_INFOMATION,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,67,36,158,154
+    PUSHBUTTON      "About",IDC_BUTTON_PROP_ABOUT,5,199,46,14
+    PUSHBUTTON      "&Options",IDC_BUTTON_CONFIG,53,199,46,14
+    COMBOBOX        IDC_COMBO_PROP_CHANGE,105,199,74,35,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Change",IDC_BUTTON_PROP_CHANGE,181,199,46,14
+    PUSHBUTTON      "Crash",IDC_BUTTON_CRASH_ME,40,171,21,10
+    LISTBOX         IDC_LIST_TRACKS,4,130,50,24,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | NOT WS_VISIBLE | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Tracks",IDC_STATIC_INFO_TRACKS,6,13,56,8
+    GROUPBOX        "Matroska File Infomation",IDC_STATIC_INFO_BORDER,0,0,
+                    233,218
+    GROUPBOX        "Track Infomation",IDC_STATIC_INFO_TRACK_BORDER,63,25,
+                    165,169
+    PUSHBUTTON      "Bitrate",IDC_BUTTON_BITRATE,5,181,46,14
+END
+
+IDD_DIALOG_ABOUT DIALOGEX 0, 0, 217, 165
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "About"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDC_BUTTON_ABOUT_OK,83,148,50,14
+    EDITTEXT        IDC_STATIC_ABOUT,3,42,210,105,ES_MULTILINE | 
+                    ES_NOHIDESEL | ES_READONLY | ES_WANTRETURN | WS_VSCROLL
+    PUSHBUTTON      "'Matroska'",IDC_BUTTON_ABOUT_LISTEN,163,148,50,14,NOT 
+                    WS_VISIBLE
+END
+
+IDD_TAG_TAB DIALOGEX 0, 0, 236, 221
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "&Save",IDC_BUTTON_SAVE,183,205,50,14
+    EDITTEXT        IDC_EDIT_SELECTED_TAG_TEXT,72,174,159,26,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | 
+                    WS_VSCROLL
+    LTEXT           "Field Text:",IDC_STATIC_TAG_4,72,165,145,8
+    RTEXT           "Tag Type:",IDC_STATIC_TAG_2,75,152,51,8
+    GROUPBOX        "The Matroska Tagger",IDC_STATIC_TAG_FRAME_BORDER,0,0,
+                    233,202
+    LISTBOX         IDC_LIST_TAGS,5,68,224,64,LBS_SORT | LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Tag Entry Tags",IDC_STATIC_TAG_5,4,58,226,8
+    COMBOBOX        IDC_COMBO_TAG_TYPE,128,150,102,52,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Tag Field:",IDC_STATIC_TAG_3,6,167,59,8
+    COMBOBOX        IDC_COMBO_TAG_FIELD,4,178,64,50,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "None Selected",IDC_STATIC_TAG_NAME,6,136,130,10
+    PUSHBUTTON      "&Add",IDC_BUTTON_ADDTAG,137,135,45,13
+    PUSHBUTTON      "&Reload Tags",IDC_BUTTON_TAGS_RELOAD,127,205,53,14
+    CONTROL         "DateTimePicker1",IDC_TAG_DATETIMEPICKER_TIME,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    DTS_APPCANPARSE | WS_TABSTOP,135,175,59,13
+    CONTROL         "DateTimePicker2",IDC_TAG_DATETIMEPICKER_DATE,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,72,175,
+                    55,13
+    PUSHBUTTON      "&Export Tags as XML",IDC_BUTTON_EXPORT_XML,0,205,74,14
+    PUSHBUTTON      "&Import",IDC_BUTTON_TAG_IMPORT,75,205,36,14
+    PUSHBUTTON      "&Delete",IDC_BUTTON_DELETETAG,184,135,44,13
+    LISTBOX         IDC_LIST_TAG_ASSIGNED_UID,120,22,72,32,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Add",IDC_BUTTON_TAG_UID_ADD,192,26,36,12
+    PUSHBUTTON      "Delete",IDC_BUTTON_TAG_UID_DELETE,192,39,36,12
+    LTEXT           "Assigned UIDs:",IDC_STATIC_TAG_ASSIGNED_UID,120,12,108,
+                    8
+    LISTBOX         IDC_LIST_TAG_ENTRIES,8,22,72,34,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Add",IDC_BUTTON_TAG_ENTRY_ADD,80,26,36,12
+    PUSHBUTTON      "Delete",IDC_BUTTON_TAG_ENTRY_DELETE,80,39,36,12
+    LTEXT           "Tag Entries:",IDC_STATIC_TAG_ENTRIES,8,12,108,8
+END
+
+IDD_TAG_SIMPLE_TAB DIALOG  0, 0, 236, 221
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_COMBO_TAG_SIMPLE_TRACKS,77,12,56,30,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_TAG_TRACKNO,183,38,35,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TAG_TITLE,46,55,179,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TAG_ARTIST,46,70,180,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TAG_ALBUM,46,86,180,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_TAG_GENRE,46,102,94,52,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_TAG_YEAR,168,102,57,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TAG_RATING,46,118,61,12,ES_AUTOHSCROLL
+    CONTROL         "Spin2",IDC_SPIN_TAG_RATING,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,107,118,9,14
+    EDITTEXT        IDC_EDIT_TAG_BPM,149,118,75,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TAG_COMMENT,45,134,182,63,ES_MULTILINE | 
+                    ES_WANTRETURN | WS_VSCROLL
+    PUSHBUTTON      "&Save",IDC_BUTTON_SIMPLE_TAG_SAVE,183,205,50,14
+    GROUPBOX        "The Matroska Tagger",IDC_STATIC,0,0,233,202
+    RTEXT           "Track: ",IDC_STATIC,47,15,29,8
+    LTEXT           "Tag belonging to this Track",IDC_STATIC,51,28,100,8
+    LTEXT           "Track UID:",IDC_STATIC_TRACK_UID,135,12,82,8
+    CONTROL         110,IDC_STATIC,"Static",SS_BITMAP,4,10,43,39
+    RTEXT           "Artist",IDC_STATIC,9,72,32,8
+    RTEXT           "Title",IDC_STATIC,9,57,32,8
+    RTEXT           "Album",IDC_STATIC,9,89,32,8
+    RTEXT           "Genre",IDC_STATIC,10,105,32,8
+    RTEXT           "Year",IDC_STATIC,143,104,21,8
+    RTEXT           "BPM",IDC_STATIC,120,120,25,8
+    RTEXT           "Comment",IDC_STATIC,11,135,32,8
+    RTEXT           "Track #",IDC_STATIC,147,40,33,8
+    RTEXT           "Rating",IDC_STATIC,10,120,32,8
+END
+
+IDD_DIALOG_ADDTAG DIALOG  0, 0, 198, 106
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add a new Tag"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDC_BUTTON_ADDTAG_OK,144,4,50,14
+    PUSHBUTTON      "Cancel",IDC_BUTTON_ADDTAG_CANCEL,144,20,50,14
+    LTEXT           "Choose the type of tag to add",IDC_STATIC_ADD_TAG_1,2,2,
+                    138,10
+    LISTBOX         IDC_LIST_ADDTAG,2,12,136,92,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "",IDC_STATIC_TAGADD_INFO,140,36,56,68
+END
+
+IDD_DIALOG_DISPLAY_SIZE DIALOG  0, 0, 170, 50
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Change Display Size or AR"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDC_BUTTON_DISPLAY_SIZE_OK,113,7,50,14
+    PUSHBUTTON      "Cancel",IDC_BUTTON_DISPLAY_SIZE_CANCEL,113,24,50,14
+    EDITTEXT        IDC_EDIT_WIDTH,12,28,40,14,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin2",IDC_SPIN_DISPLAY_WIDTH,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,50,28,9,14
+    EDITTEXT        IDC_EDIT_HEIGHT,60,28,40,14,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_DISPLAY_HEIGHT,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,100,29,9,14
+    CTEXT           "Width",IDC_STATIC_DISPLAY_SIZE_2,13,20,37,8
+    CTEXT           "Height",IDC_STATIC_DISPLAY_SIZE_3,61,20,38,8
+    LTEXT           "Change the Display Size or AR",
+                    IDC_STATIC_DISPLAY_SIZE_1,5,5,105,11
+    CTEXT           "x",IDC_STATIC,52,29,8,12,SS_CENTERIMAGE
+END
+
+IDD_DIALOG_DISPLAY_TEXT DIALOG  0, 0, 218, 138
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Attached Text File"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_ATTACHED_TEXT,1,1,216,136,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_VSCROLL | WS_HSCROLL
+END
+
+IDD_DIALOG_SHELL_OPTIONS DIALOG  0, 0, 292, 225
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Matroska Shell Ext Options"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDC_CONFIG_OK,188,190,50,14
+    PUSHBUTTON      "Cancel",IDC_CONFIG_CANCEL,240,190,50,14
+    LTEXT           "Matroska Shell Ext Options Setup\nChoose which features you want enabled and configure any options.",
+                    IDC_STATIC_CONFIG_1,4,0,284,19
+    CONTROL         "Enable Matroska Context Menus",
+                    IDC_CHECK_ENABLE_CONTEXT_MENU,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,4,22,136,10
+    CONTROL         "Enable Matroska File Tooltips",
+                    IDC_CHECK_ENABLE_TOOLTIPS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,4,33,136,10
+    CONTROL         "Use short Tooltips",IDC_CHECK_USE_SHORT_TOOLTIPS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,16,42,124,10
+    CONTROL         "Enable Matroska File Columns",IDC_CHECK_ENABLE_COLUMN,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,4,52,136,10
+    GROUPBOX        "Which Property Pages to Show",IDC_STATIC_CONFIG_5,144,
+                    24,144,41
+    CONTROL         "Info Tab",IDC_CHECK_DISPLAY_INFO,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,150,33,134,10
+    CONTROL         "Tags Tab",IDC_CHECK_DISPLAY_TAG,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,150,44,134,10
+    CONTROL         "Attachments Tab",IDC_CHECK_DISPLAY_ATTACHMENTS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,150,54,134,10
+    GROUPBOX        "Thumbnails",IDC_STATIC_CONFIG_8,4,76,284,104
+    CONTROL         "Enable Matroska File Thumbnails",
+                    IDC_CHECK_ENABLE_THUMBNAILS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,86,274,10
+    RTEXT           "Thumbnail Resize Method",IDC_STATIC_CONFIG_7,9,98,112,8
+    COMBOBOX        IDC_COMBO_THUMBNAIL_RESIZE,124,96,78,58,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Show thumbnails on click (slows browsing down and only shows in tasks view)",
+                    IDC_CHECK_ENABLE_TASK_THUMBNAILS,"Button",
+                    BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,15,111,264,
+                    16
+    LTEXT           "Thumbnail Video Frame Time",IDC_STATIC_CONFIG_6,15,130,
+                    104,8
+    EDITTEXT        IDC_EDIT_FRAMETIME,20,139,41,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin2",IDC_SPIN_FRAMETIME,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,60,139,9,14
+    CONTROL         "Enable DShow (Internal Render) thumbnail generation (prefered)",
+                    IDC_CHECK_ENABLE_DSHOW_FALLBACK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,19,156,260,10
+    CONTROL         "Enable DShow (IMediaDet) thumbnail generation",
+                    IDC_CHECK_ENABLE_IMEDIADET_DSHOW_FALLBACK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,19,167,260,10
+    RTEXT           "Cache Size:",IDC_STATIC_CONFIG_3,9,66,50,8
+    EDITTEXT        IDC_EDIT_CACHE_LIMIT,61,64,34,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_CACHE_LIMIT,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,93,64,9,14
+    EDITTEXT        IDC_REG_FILENAME,2,209,287,13,ES_READONLY
+    LTEXT           "Thumbnail Timeout",IDC_STATIC_CONFIG_9,122,129,149,8
+    EDITTEXT        IDC_EDIT_THUMBNAIL_TIMEOUT,127,139,43,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin2",IDC_SPIN_FRAMETIME2,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,165,137,9,14
+    RTEXT           "Language:",IDC_STATIC_CONFIG_11,0,184,49,8
+    COMBOBOX        IDC_COMBO_CONFIG_LANGUAGE,50,182,75,57,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Set",IDC_BUTTON_CONFIG_SET_TRANSLATION,127,182,37,14
+    CTEXT           "Translation by <translator name>",
+                    IDC_STATIC_TRANSLATION_BY,4,197,164,8
+    CONTROL         "Enable Crash Catcher",IDC_CHECK_ENABLE_CRASH_CATCHER,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,150,68,136,10
+    CONTROL         "Auto-Reload Tags",IDC_CHECK_AUTO_RELOAD_TAGS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,180,180,73,10
+    CONTROL         "Tab1",IDC_TAB_CONFIG,"SysTabControl32",NOT WS_VISIBLE | 
+                    WS_BORDER,0,0,288,188
+END
+
+IDD_PROPPAGE_ATTACHMENT DIALOG  0, 0, 236, 221
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "View Attachment",IDC_BUTTON_VIEW_ATTACHMENT,120,83,60,
+                    12
+    GROUPBOX        "Attachment Infomation",IDC_STATIC_ATTACHMENT_FRAME,57,
+                    12,169,68
+    LTEXT           "",IDC_STATIC_ATTACHMENT_INFO,61,20,161,57
+    GROUPBOX        "Matroska Attachment Infomation",
+                    IDC_STATIC_ATTACHMENT_BORDER,0,0,233,218
+    PUSHBUTTON      "Load Attachments",IDC_BUTTON_LOAD_ATTACHMENTS,5,81,62,
+                    11,NOT WS_VISIBLE | WS_DISABLED
+    GROUPBOX        "Attachment Preview",IDC_STATIC_ATTACHMENT_PREVIEW,4,92,
+                    223,121
+    LISTBOX         IDC_LIST_ATTACHMENT,3,14,51,65,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_ATTACHMENT,8,102,215,107,ES_MULTILINE | 
+                    ES_READONLY | NOT WS_VISIBLE | WS_VSCROLL | WS_HSCROLL
+    PUSHBUTTON      "Save As",IDC_SAVE_ATTACHMENT,184,83,42,12
+END
+
+IDD_DIALOG_PROGRESS DIALOG  0, 0, 147, 49
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Matroska Parser"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Parsing Matroska File",IDC_STATIC_PROGRESS_TITLE,4,3,68,
+                    8
+    CONTROL         "Progress1",IDC_PROGRESS_BAR,"msctls_progress32",
+                    WS_BORDER | 0x1,4,15,140,14
+    PUSHBUTTON      "Abort",IDC_BUTTON_ABORT,94,32,50,14
+    LTEXT           "0 %",IDC_STATIC_PROGRESS,4,32,87,8
+END
+
+IDD_DIALOG_MUXER DIALOG  0, 0, 176, 78
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Muxing..."
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Cancel",IDC_BUTTON_CANCEL_MUXING,119,57,50,14
+    CONTROL         "Progress1",IDC_PROGRESS_MUXING,"msctls_progress32",
+                    WS_BORDER | 0x1,7,39,162,14
+    LTEXT           "Input Files: test.avi, test.ogg\nOuput File: final.mkv",
+                    IDC_STATIC_MUXING,7,7,162,30
+END
+
+IDD_DIALOG_ICONS DIALOG  0, 0, 178, 135
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Select your Matroska Icon"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_LIST_VIEW_ICON_CHOICE,"SysListView32",
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,7,7,164,99
+    CONTROL         "Leave Icon",IDC_RADIO_NO_ICON,"Button",
+                    BS_AUTORADIOBUTTON | NOT WS_VISIBLE,43,13,93,12
+    CONTROL         "Use Pamel's Logo with Jory colors",IDC_RADIO_MKV_JORY,
+                    "Button",BS_AUTORADIOBUTTON | BS_MULTILINE | NOT 
+                    WS_VISIBLE,43,34,93,18
+    CONTROL         "Use Pamel's Logo with Blue colors",IDC_RADIO_MKV_BLUE,
+                    "Button",BS_AUTORADIOBUTTON | BS_MULTILINE | NOT 
+                    WS_VISIBLE,43,58,92,19
+    CONTROL         "Use Jory's silly Monkey",IDC_RADIO_MONKEY,"Button",
+                    BS_AUTORADIOBUTTON | BS_MULTILINE | NOT WS_VISIBLE,43,83,
+                    92,19
+    DEFPUSHBUTTON   "OK",IDC_BUTTON_SELECT_ICON,61,114,50,14
+    ICON            IDI_ICON_MKV1,IDC_STATIC,17,33,20,20,NOT WS_VISIBLE
+    ICON            IDI_ICON_MONKEY,IDC_STATIC,17,83,20,20,NOT WS_VISIBLE
+    ICON            IDI_ICON_MKV_BLUE,IDC_STATIC,17,58,20,20,NOT WS_VISIBLE
+    ICON            IDI_ICON_WRENCH,IDC_STATIC,17,9,20,20,NOT WS_VISIBLE
+END
+
+IDD_DIALOG_SELECT_LANGUAGE DIALOG  0, 0, 187, 47
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Select ISO-639 Language"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDC_BUTTON_LANGUAGE_OK,130,7,50,14
+    PUSHBUTTON      "Cancel",IDC_BUTTON_LANGUAGE_CANCEL,130,26,50,14
+    COMBOBOX        IDC_COMBO_LANGUAGE_SELECTION,7,18,114,74,
+                    CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Select the Language from the list",
+                    IDC_STATIC_LANGUAGE_1,7,7,114,9
+END
+
+IDD_DIALOG_CRASH DIALOG  0, 0, 264, 177
+STYLE DS_SYSMODAL | DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Crash"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Save Crash Report",IDC_BUTTON_SAVE_DUMP,85,156,73,14
+    PUSHBUTTON      "Close",IDCANCEL,211,156,46,14
+    EDITTEXT        IDC_EDIT_CRASH_REPORT,7,51,250,61,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL
+    LTEXT           "Opps, A crash",IDC_STATIC_CRASH_TITLE,7,7,250,44
+    PUSHBUTTON      "Ignore",IDIGNORE,162,156,46,14
+    EDITTEXT        IDC_EDIT_CRASH_USER_TEXT,7,123,250,30,ES_MULTILINE | 
+                    ES_WANTRETURN | WS_VSCROLL
+    LTEXT           "Please enter a short description of what happened.",
+                    IDC_STATIC,7,114,250,8
+END
+
+IDD_DIALOG_ADD_SIMPLE_TAG DIALOG  0, 0, 188, 65
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDC_BUTTON_ADD_SIMPLE_TAG_OK,136,8,50,14
+    PUSHBUTTON      "Cancel",IDC_BUTTON_ADD_SIMPLE_TAG_CANCEL,136,25,50,14
+    RTEXT           "Name:",IDC_STATIC_NAME,4,10,30,8
+    RTEXT           "Value:",IDC_STATIC_VALUE,4,26,29,8
+    COMBOBOX        IDC_COMBO_TAG_NAME,36,8,96,30,CBS_DROPDOWN | CBS_SORT | 
+                    CBS_UPPERCASE | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_TAG_VALUE,36,24,96,36,ES_MULTILINE | 
+                    ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_BITRATE DIALOG  0, 0, 228, 141
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDC_BUTTON_BITRATE_OK,172,124,50,14
+    LTEXT           "Bitrate Usage:",IDC_STATIC_BITRATE_USAGE,4,4,220,8
+    EDITTEXT        IDC_EDIT_BITRATE_DISPLAY,4,16,220,104,ES_MULTILINE | 
+                    WS_VSCROLL
+    CONTROL         "Progress1",IDC_PROGRESS_BAR_BITRATE,"msctls_progress32",
+                    WS_BORDER,5,123,111,16
+    PUSHBUTTON      "Save",IDC_BUTTON_BITRATE_SAVE,120,124,50,14
+END
+
+IDD_DIALOG_ADD_UID DIALOG  0, 0, 186, 73
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDC_BUTTON_ADD_UID_OK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDC_BUTTON_ADD_UID_CANCEL,129,24,50,14
+    LTEXT           "Select the UID to add:",IDC_STATIC_ADD_UID_1,4,4,120,8
+    EDITTEXT        IDC_EDIT_ADD_UID,4,14,120,14,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    LISTBOX         IDC_LIST_ADD_UID,4,16,120,54,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_PROPPAGE_CHAPTER DIALOG  0, 0, 236, 221
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Matroska Chapter Infomation",IDC_STATIC_CHAPTER_BORDER,
+                    0,0,233,218
+    CONTROL         "Tree1",IDC_TREE_CHAPTER,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_TABSTOP,
+                    7,10,220,186
+    PUSHBUTTON      "Export as XML",IDC_BUTTON_EXPORT_CHAPTERS_XML,176,200,
+                    50,14
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_PROPPAGE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 233
+        BOTTOMMARGIN, 219
+    END
+
+    IDD_DIALOG_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 213
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 162
+    END
+
+    IDD_TAG_TAB, DIALOG
+    BEGIN
+        RIGHTMARGIN, 233
+        BOTTOMMARGIN, 219
+    END
+
+    IDD_TAG_SIMPLE_TAB, DIALOG
+    BEGIN
+        RIGHTMARGIN, 233
+        BOTTOMMARGIN, 219
+    END
+
+    IDD_DIALOG_ADDTAG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 191
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 99
+    END
+
+    IDD_DIALOG_DISPLAY_SIZE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_DIALOG_DISPLAY_TEXT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 211
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 131
+    END
+
+    IDD_DIALOG_SHELL_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 284
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 223
+    END
+
+    IDD_PROPPAGE_ATTACHMENT, DIALOG
+    BEGIN
+        RIGHTMARGIN, 233
+        BOTTOMMARGIN, 219
+    END
+
+    IDD_DIALOG_PROGRESS, DIALOG
+    BEGIN
+        RIGHTMARGIN, 144
+        BOTTOMMARGIN, 46
+    END
+
+    IDD_DIALOG_MUXER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 169
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 71
+    END
+
+    IDD_DIALOG_ICONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 171
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 128
+    END
+
+    IDD_DIALOG_SELECT_LANGUAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 40
+    END
+
+    IDD_DIALOG_CRASH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 257
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+
+    IDD_DIALOG_ADD_SIMPLE_TAG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 181
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 58
+    END
+
+    IDD_DIALOG_BITRATE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 221
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 134
+    END
+
+    IDD_DIALOG_ADD_UID, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 66
+    END
+
+    IDD_PROPPAGE_CHAPTER, DIALOG
+    BEGIN
+        RIGHTMARGIN, 233
+        BOTTOMMARGIN, 219
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_LOGO         BITMAP                  "mkva-tcmp02.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2, 8, 0, 2219
+ PRODUCTVERSION 2, 8, 0, 2219
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Get the lastest version at http://www.matroska.org/"
+            VALUE "CompanyName", " "
+            VALUE "FileDescription", "Matroska Shell Ext"
+            VALUE "FileVersion", "2, 8, 0, 2219\0" 
+            VALUE "InternalName", "MatroskaCDL"
+            VALUE "LegalCopyright", "Copyright © 2003-2005 Jory Stone (matroskaprop@jory.info)"
+            VALUE "OriginalFilename", "MatroskaCDL.rc"
+            VALUE "ProductName", "Matroska Shell Ext"
+            VALUE "ProductVersion", "2, 8, 0, 2219\0" 
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON_WRENCH         ICON                    "WRENCH.ICO"
+IDI_ICON_MKV1           ICON                    "mkva.ico"
+IDI_ICON_MKV_BLUE       ICON                    "blue.ico"
+IDI_ICON_MONKEY         ICON                    "monkey.ico"
+IDI_ICON_MKV6           ICON                    "MKV6.ico"
+IDI_ICON_MKV_DOLL_4     ICON                    "DollKugel4.ico"
+IDI_ICON_MKV_DOLL_5     ICON                    "DollKugel5.ico"
+IDI_ICON_COW            ICON                    "cow.ico"
+IDI_ICON_AUDIO          ICON                    "audio.ico"
+IDI_ICON_SUBTITLE       ICON                    "subtitle.ico"
+IDI_ICON_VIDEO          ICON                    "video.ico"
+IDI_ICON_SETUP          ICON                    "appsetup05.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG_SHELL_OPTIONS DLGINIT
+BEGIN
+    IDC_COMBO_THUMBNAIL_RESIZE, 0x403, 9, 0
+0x6942, 0x696c, 0x656e, 0x7261, "\000" 
+    IDC_COMBO_THUMBNAIL_RESIZE, 0x403, 14, 0
+0x654e, 0x7261, 0x7365, 0x2074, 0x6950, 0x6578, 0x006c, 
+    IDC_COMBO_THUMBNAIL_RESIZE, 0x403, 8, 0
+0x6942, 0x7563, 0x6962, 0x0063, 
+    0
+END
+
+IDD_TAG_SIMPLE_TAB DLGINIT
+BEGIN
+    IDC_COMBO_TAG_GENRE, 0x403, 4, 0
+0x6f50, 0x0070, 
+    0
+END
+
+IDD_PROPPAGE DLGINIT
+BEGIN
+    IDC_COMBO_PROP_CHANGE, 0x403, 15, 0
+0x7254, 0x6361, 0x206b, 0x614c, 0x676e, 0x6175, 0x6567, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_CLIPBOARD MENU 
+BEGIN
+    POPUP "PopupMenu"
+    BEGIN
+        MENUITEM "Copy Info to Clipboard",      IDC_MENU_COPY_CLIPBOARD
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDR_PNG_MATROSKA_CDL    PNG                     "matroskacdl.png"
+IDR_PNG_MATROSKA_INFO   PNG                     "matroskainfo.png"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
